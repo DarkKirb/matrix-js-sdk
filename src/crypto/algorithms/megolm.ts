@@ -1322,10 +1322,15 @@ export class MegolmDecryption extends DecryptionAlgorithm {
         // (fixes https://github.com/vector-im/element-web/issues/5001)
         this.addEventToPendingList(event);
 
+        let keyRoomId = event.getRoomId()!;
+        if (content["com.beeper.original_room_id"]?.endsWith(".local") && keyRoomId.endsWith(".local")) {
+            keyRoomId = content["com.beeper.original_room_id"];
+        }
+
         let res: IDecryptedGroupMessage | null;
         try {
             res = await this.olmDevice.decryptGroupMessage(
-                event.getRoomId()!,
+                keyRoomId,
                 content.sender_key,
                 content.session_id,
                 content.ciphertext,
@@ -1403,7 +1408,7 @@ export class MegolmDecryption extends DecryptionAlgorithm {
         // belt-and-braces check that the room id matches that indicated by the HS
         // (this is somewhat redundant, since the megolm session is scoped to the
         // room, so neither the sender nor a MITM can lie about the room_id).
-        if (payload.room_id !== event.getRoomId()) {
+        if (payload.room_id !== keyRoomId) {
             throw new DecryptionError("MEGOLM_BAD_ROOM", "Message intended for room " + payload.room_id);
         }
 
