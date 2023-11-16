@@ -1,0 +1,17 @@
+name: Sync maunium fork
+
+on:
+  schedule:
+    - cron: '47 9 * * *' # 9:47 UTC
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tgymnich/fork-sync@v1.8
+        with:
+          owner: matrix-org
+          base: master
+          head: master
+          auto_merge: false
