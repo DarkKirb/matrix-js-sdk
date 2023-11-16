@@ -9,9 +9,15 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: tgymnich/fork-sync@v1.9
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          owner: matrix-org
-          base: develop
-          head: develop
-          auto_merge: false
+            token: ${{ secrets.PAT }}
+      - run: git remote add upstream https://github.com/matrix-org/matrix-js-sdk
+      - run: git fetch upstream
+      - run: git reset --hard upstream/develop
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          author: GitHub <noreply@github.com>
+          branch: maunium-develop
+          token: ${{ secrets.PAT }}
