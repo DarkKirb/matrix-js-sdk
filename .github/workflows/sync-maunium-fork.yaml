@@ -12,6 +12,6 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           owner: maunium
-          base: master
-          head: master
+          base: develop
+          head: develop
           auto_merge: false

@@ -1,4 +1,4 @@
-name: Sync maunium fork
+name: Sync matrix-org fork
 
 on:
   schedule:
@@ -12,6 +12,6 @@ jobs:
       - uses: tgymnich/fork-sync@v1.8
         with:
           owner: matrix-org
-          base: master
-          head: master
+          base: develop
+          head: develop
           auto_merge: false
