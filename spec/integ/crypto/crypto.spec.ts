@@ -23,7 +23,14 @@ import { MockResponse, MockResponseFunction } from "fetch-mock";
 import Olm from "@matrix-org/olm";
 
 import * as testUtils from "../../test-utils/test-utils";
-import { CRYPTO_BACKENDS, getSyncResponse, InitCrypto, mkEventCustom, syncPromise } from "../../test-utils/test-utils";
+import {
+    advanceTimersUntil,
+    CRYPTO_BACKENDS,
+    getSyncResponse,
+    InitCrypto,
+    mkEventCustom,
+    syncPromise,
+} from "../../test-utils/test-utils";
 import * as testData from "../../test-utils/test-data";
 import {
     BOB_SIGNED_CROSS_SIGNING_KEYS_DATA,
@@ -88,6 +95,7 @@ import {
     establishOlmSession,
     getTestOlmAccountKeys,
 } from "./olm-utils";
+import { ToDevicePayload } from "../../../src/models/ToDeviceMessage";
 
 afterEach(() => {
     // reset fake-indexeddb after each test, to make sure we don't leak connections
@@ -684,7 +692,13 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
     });
 
     it("prepareToEncrypt", async () => {
-        expectAliceKeyQuery({ device_keys: { "@alice:localhost": {} }, failures: {} });
+        const homeserverUrl = aliceClient.getHomeserverUrl();
+        keyResponder = new E2EKeyResponder(homeserverUrl);
+        keyResponder.addKeyReceiver("@alice:localhost", keyReceiver);
+
+        const testDeviceKeys = getTestOlmAccountKeys(testOlmAccount, "@bob:xyz", "DEVICE_ID");
+        keyResponder.addDeviceKeys(testDeviceKeys);
+
         await startClientAndAwaitFirstSync();
         aliceClient.setGlobalErrorOnUnknownDevices(false);
 
@@ -692,10 +706,7 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
         syncResponder.sendOrQueueSyncResponse(getSyncResponse(["@bob:xyz"]));
         await syncPromise(aliceClient);
 
-        // we expect alice first to query bob's keys...
-        expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
-
-        // ... and then claim one of his OTKs
+        // Alice should claim one of Bob's OTKs
         expectAliceKeyClaim(getTestKeysClaimResponse("@bob:xyz"));
 
         // fire off the prepare request
@@ -712,18 +723,20 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
 
     it("Alice sends a megolm message with GlobalErrorOnUnknownDevices=false", async () => {
         aliceClient.setGlobalErrorOnUnknownDevices(false);
-        expectAliceKeyQuery({ device_keys: { "@alice:localhost": {} }, failures: {} });
+        const homeserverUrl = aliceClient.getHomeserverUrl();
+        keyResponder = new E2EKeyResponder(homeserverUrl);
+        keyResponder.addKeyReceiver("@alice:localhost", keyReceiver);
+
+        const testDeviceKeys = getTestOlmAccountKeys(testOlmAccount, "@bob:xyz", "DEVICE_ID");
+        keyResponder.addDeviceKeys(testDeviceKeys);
+
         await startClientAndAwaitFirstSync();
 
         // Alice shares a room with Bob
         syncResponder.sendOrQueueSyncResponse(getSyncResponse(["@bob:xyz"]));
         await syncPromise(aliceClient);
 
-        // Once we send the message, Alice will check Bob's device list (twice, because reasons) ...
-        expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
-        expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
-
-        // ... and claim one of his OTKs ...
+        // ... and claim one of Bob's OTKs ...
         expectAliceKeyClaim(getTestKeysClaimResponse("@bob:xyz"));
 
         // ... and send an m.room_key message
@@ -738,18 +751,20 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
 
     it("We should start a new megolm session after forceDiscardSession", async () => {
         aliceClient.setGlobalErrorOnUnknownDevices(false);
-        expectAliceKeyQuery({ device_keys: { "@alice:localhost": {} }, failures: {} });
+        const homeserverUrl = aliceClient.getHomeserverUrl();
+        keyResponder = new E2EKeyResponder(homeserverUrl);
+        keyResponder.addKeyReceiver("@alice:localhost", keyReceiver);
+
+        const testDeviceKeys = getTestOlmAccountKeys(testOlmAccount, "@bob:xyz", "DEVICE_ID");
+        keyResponder.addDeviceKeys(testDeviceKeys);
+
         await startClientAndAwaitFirstSync();
 
         // Alice shares a room with Bob
         syncResponder.sendOrQueueSyncResponse(getSyncResponse(["@bob:xyz"]));
         await syncPromise(aliceClient);
 
-        // Once we send the message, Alice will check Bob's device list (twice, because reasons) ...
-        expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
-        expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
-
-        // ... and claim one of his OTKs ...
+        // ... and claim one of Bob's OTKs ...
         expectAliceKeyClaim(getTestKeysClaimResponse("@bob:xyz"));
 
         // ... and send an m.room_key message
@@ -935,6 +950,39 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
                 }),
                 aliceClient.sendTextMessage(ROOM_ID, "test"),
             ]);
+        });
+
+        it("should send a m.unverified code in toDevice messages to an unverified device when globalBlacklistUnverifiedDevices=true", async () => {
+            aliceClient.getCrypto()!.globalBlacklistUnverifiedDevices = true;
+
+            expectAliceKeyQuery({ device_keys: { "@alice:localhost": {} }, failures: {} });
+            await startClientAndAwaitFirstSync();
+            await establishOlmSession(aliceClient, keyReceiver, syncResponder, testOlmAccount);
+
+            // Tell alice we share a room with bob
+            syncResponder.sendOrQueueSyncResponse(getSyncResponse(["@bob:xyz"]));
+            await syncPromise(aliceClient);
+
+            // Force alice to download bob keys
+            expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
+
+            // Wait to receive the toDevice message and return bob device content
+            const toDevicePromise = new Promise<ToDevicePayload>((resolve) => {
+                fetchMock.putOnce(new RegExp("/sendToDevice/m.room_key.withheld/"), (url, request) => {
+                    const content = JSON.parse(request.body as string);
+                    resolve(content.messages["@bob:xyz"]["DEVICE_ID"]);
+                    return {};
+                });
+            });
+
+            // Mock endpoint of message sending
+            fetchMock.put(new RegExp("/send/"), { event_id: "$event_id" });
+
+            await aliceClient.sendTextMessage(ROOM_ID, "test");
+
+            // Finally, check that the toDevice message has the m.unverified code
+            const toDeviceContent = await toDevicePromise;
+            expect(toDeviceContent.code).toBe("m.unverified");
         });
     });
 
@@ -2011,12 +2059,16 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
             });
         }
 
-        oldBackendOnly("Sending an event initiates a member list sync", async () => {
+        it("Sending an event initiates a member list sync", async () => {
+            const homeserverUrl = aliceClient.getHomeserverUrl();
+            keyResponder = new E2EKeyResponder(homeserverUrl);
+            keyResponder.addKeyReceiver("@alice:localhost", keyReceiver);
+
+            const testDeviceKeys = getTestOlmAccountKeys(testOlmAccount, "@bob:xyz", "DEVICE_ID");
+            keyResponder.addDeviceKeys(testDeviceKeys);
+
             // we expect a call to the /members list...
             const memberListPromise = expectMembershipRequest(ROOM_ID, ["@bob:xyz"]);
-
-            // then a request for bob's devices...
-            expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
 
             // then a to-device with the room_key
             const inboundGroupSessionPromise = expectSendRoomKey("@bob:xyz", testOlmAccount, p2pSession);
@@ -2030,12 +2082,16 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
             await Promise.all([sendPromise, megolmMessagePromise, memberListPromise]);
         });
 
-        oldBackendOnly("loading the membership list inhibits a later load", async () => {
+        it("loading the membership list inhibits a later load", async () => {
+            const homeserverUrl = aliceClient.getHomeserverUrl();
+            keyResponder = new E2EKeyResponder(homeserverUrl);
+            keyResponder.addKeyReceiver("@alice:localhost", keyReceiver);
+
+            const testDeviceKeys = getTestOlmAccountKeys(testOlmAccount, "@bob:xyz", "DEVICE_ID");
+            keyResponder.addDeviceKeys(testDeviceKeys);
+
             const room = aliceClient.getRoom(ROOM_ID)!;
             await Promise.all([room.loadMembersIfNeeded(), expectMembershipRequest(ROOM_ID, ["@bob:xyz"])]);
-
-            // expect a request for bob's devices...
-            expectAliceKeyQuery(getTestKeysQueryResponse("@bob:xyz"));
 
             // then a to-device with the room_key
             const inboundGroupSessionPromise = expectSendRoomKey("@bob:xyz", testOlmAccount, p2pSession);
@@ -2767,7 +2823,9 @@ describe.each(Object.entries(CRYPTO_BACKENDS))("crypto (%s)", (backend: string, 
                 fetchMock.get("express:/_matrix/client/v3/room_keys/keys", keyBackupData);
 
                 // should be able to restore from 4S
-                const importResult = await aliceClient.restoreKeyBackupWithSecretStorage(check!.backupInfo!);
+                const importResult = await advanceTimersUntil(
+                    aliceClient.restoreKeyBackupWithSecretStorage(check!.backupInfo!),
+                );
                 expect(importResult.imported).toStrictEqual(1);
             });
 
