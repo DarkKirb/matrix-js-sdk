@@ -4,17 +4,15 @@
 }: let
   pkgs = import nixpkgs {};
   prs = builtins.fromJSON (builtins.readFile prsJSON);
-  systems = ["x86_64-linux" "aarch64-linux"];
-  nixpkgs_version = ["master"];
-  mkJobsets = system: version:
+  jobsets =
     (builtins.listToAttrs (
       pkgs.lib.attrsets.mapAttrsToList (
         _: info: {
-          name = "${system}-${version}-pr${toString info.number}";
+          name = "pr${toString info.number}";
           value = {
             enabled = info.state == "open";
             hidden = info.state != "open";
-            description = "PR ${toString info.number} (${system}-${version}): ${info.title}";
+            description = "PR ${toString info.number}: ${info.title}";
             nixexprinput = "matrix-js-sdk";
             nixexprpath = "hydra/default.nix";
             checkinterval = 3600;
@@ -30,12 +28,8 @@
               };
               nixpkgs = {
                 type = "git";
-                value = "https://github.com/NixOS/nixpkgs.git ${version}";
+                value = "https://github.com/NixOS/nixpkgs.git master";
                 emailresponsible = false;
-              };
-              system = {
-                type = "string";
-                value = system;
               };
               github_input = {
                 type = "string";
@@ -56,10 +50,10 @@
       prs
     ))
     // {
-      "${system}-${version}" = {
+      matrix-js-sdk = {
         enabled = 1;
         hidden = false;
-        description = "matrix-js-sdk ${system}-${version}";
+        description = "Current nixos config";
         nixexprinput = "matrix-js-sdk";
         nixexprpath = "hydra/default.nix";
         checkinterval = 0;
@@ -75,12 +69,8 @@
           };
           nixpkgs = {
             type = "git";
-            value = "https://github.com/NixOS/nixpkgs.git ${version}";
+            value = "https://github.com/NixOS/nixpkgs.git master";
             emailresponsible = false;
-          };
-          system = {
-            type = "string";
-            value = system;
           };
           github_input = {
             type = "string";
@@ -97,8 +87,4 @@
         };
       };
     };
-  concatAttrs = pkgs.lib.foldr (a: b: a // b) {};
-
-  jobsets =
-    concatAttrs (pkgs.lib.concatMap (system: map (version: mkJobsets system version) nixpkgs_version) systems);
 in {jobsets = pkgs.writeText "jobsets.json" (builtins.toJSON jobsets);}
