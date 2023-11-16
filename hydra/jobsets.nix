@@ -70,7 +70,7 @@
         inputs = {
           matrix-js-sdk = {
             type = "git";
-            value = "https://github.com/DarkKirb/matrix-js-sdk main";
+            value = "https://github.com/DarkKirb/matrix-js-sdk develop";
             emailresponsible = false;
           };
           nixpkgs = {
