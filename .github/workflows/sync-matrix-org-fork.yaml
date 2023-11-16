@@ -19,5 +19,5 @@ jobs:
       - uses: peter-evans/create-pull-request@v5
         with:
           author: GitHub <noreply@github.com>
-          branch: maunium-develop
+          branch: matrix-org-develop
           token: ${{ secrets.PAT }}
