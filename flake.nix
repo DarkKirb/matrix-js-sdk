@@ -2,9 +2,15 @@
   description = "Description for the project";
 
   inputs = {
+    devshell = {
+        url = "github:numtide/devshell";
+        inputs.nixpkgs.follows = "nixpkgs";
+    };
+    flake-parts = {
+        url = "github:hercules-ci/flake-parts";
+        inputs.nixpkgs-lib.follows = "nixpkgs";
+    };
     nixpkgs.url = "github:NixOS/nixpkgs";
-    flake-parts.url = "github:hercules-ci/flake-parts";
-    devshell.url = "github:numtide/devshell";
   };
 
   outputs = inputs @ {flake-parts, ...}:
