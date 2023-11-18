@@ -3,12 +3,12 @@
 
   inputs = {
     devshell = {
-        url = "github:numtide/devshell";
-        inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:numtide/devshell";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     flake-parts = {
-        url = "github:hercules-ci/flake-parts";
-        inputs.nixpkgs-lib.follows = "nixpkgs";
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     nixpkgs.url = "github:NixOS/nixpkgs";
   };
