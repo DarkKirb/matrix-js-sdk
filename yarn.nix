@@ -1704,11 +1704,11 @@
       };
     }
     {
-      name = "_types_node___node_20.9.1.tgz";
+      name = "_types_node___node_20.9.2.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.9.1.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.9.1.tgz";
-        sha512 = "HhmzZh5LSJNS5O8jQKpJ/3ZcrrlG6L70hpGqMIAoM9YVD0YBRNWYsfwcXq8VnSjlNpCpgLzMXdiPo+dxcvSmiA==";
+        name = "_types_node___node_20.9.2.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.9.2.tgz";
+        sha512 = "WHZXKFCEyIUJzAwh3NyyTHYSR35SevJ6mZ1nWwJafKtiQbqRTIKSRcw3Ma3acqgsent3RRDqeVwpHntMk+9irg==";
       };
     }
     {
@@ -4752,11 +4752,11 @@
       };
     }
     {
-      name = "lru_cache___lru_cache_10.0.2.tgz";
+      name = "lru_cache___lru_cache_10.0.3.tgz";
       path = fetchurl {
-        name = "lru_cache___lru_cache_10.0.2.tgz";
-        url = "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.2.tgz";
-        sha512 = "Yj9mA8fPiVgOUpByoTZO5pNrcl5Yk37FcSHsUINpAsaBIEZIuqcCclDZJCVxqQShDsmYX8QG63svJiTbOATZwg==";
+        name = "lru_cache___lru_cache_10.0.3.tgz";
+        url = "https://registry.yarnpkg.com/lru-cache/-/lru-cache-10.0.3.tgz";
+        sha512 = "B7gr+F6MkqB3uzINHXNctGieGsRTMwIBgxkp0yq/5BwcuDzD4A8wQpHQW6vDAm1uKSLQghmRdD9sKqf2vJ1cEg==";
       };
     }
     {
@@ -6336,11 +6336,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.2.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.4.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.2.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.2.tgz";
-        sha512 = "qObj+lJdoITpErNI0eFsyMYs9fYorHIGaXMCzhprwF5vydbxHqB55zhUCjr6YIR4BGBLzLp0pRasm+h/Mxuaow==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.4.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.4.tgz";
+        sha512 = "uChw0fOIQQOyte+SBVPyeORAvxVmABycG28hIFJCagLHPW6ZxuvvDPcGvD4Wb2dJ8TW9y9pneYqQR+UW2/DhhA==";
       };
     }
     {
