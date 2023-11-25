@@ -16,6 +16,22 @@
       };
     }
     {
+      name = "_action_validator_cli___cli_0.5.3.tgz";
+      path = fetchurl {
+        name = "_action_validator_cli___cli_0.5.3.tgz";
+        url = "https://registry.yarnpkg.com/@action-validator/cli/-/cli-0.5.3.tgz";
+        sha512 = "u/kv77ZC55PfAc9RQeP76xV1GysTisEJjO+b5TgCrBBcaKtGLt5Y7ki2GSdc7CDzncNc1oeoGcwaLMW6JSdQAw==";
+      };
+    }
+    {
+      name = "_action_validator_core___core_0.5.3.tgz";
+      path = fetchurl {
+        name = "_action_validator_core___core_0.5.3.tgz";
+        url = "https://registry.yarnpkg.com/@action-validator/core/-/core-0.5.3.tgz";
+        sha512 = "0ABelaY7nmpvV5q0z8Vl1cDeq2OZ1HyNXjXS54fBadLaCssZLbDvTa7M2uUaNMcEWV+Xl48WWbnqJWKePt9qHQ==";
+      };
+    }
+    {
       name = "_actions_core___core_1.10.1.tgz";
       path = fetchurl {
         name = "_actions_core___core_1.10.1.tgz";
@@ -2333,6 +2349,14 @@
         name = "caniuse_lite___caniuse_lite_1.0.30001564.tgz";
         url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001564.tgz";
         sha512 = "DqAOf+rhof+6GVx1y+xzbFPeOumfQnhYzVnZD6LAXijR77yPtm9mfOcqOnT3mpnJiZVT+kwLAFnRlZcIz+c6bg==";
+      };
+    }
+    {
+      name = "chalk___chalk_5.2.0.tgz";
+      path = fetchurl {
+        name = "chalk___chalk_5.2.0.tgz";
+        url = "https://registry.yarnpkg.com/chalk/-/chalk-5.2.0.tgz";
+        sha512 = "ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==";
       };
     }
     {
