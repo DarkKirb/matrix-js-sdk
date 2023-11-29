@@ -2840,11 +2840,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.594.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.596.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.594.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.594.tgz";
-        sha512 = "xT1HVAu5xFn7bDfkjGQi9dNpMqGchUkebwf1GL7cZN32NSwwlHRPMSDJ1KN6HkS0bWUtndbSQZqvpQftKG2uFQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.596.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.596.tgz";
+        sha512 = "zW3zbZ40Icb2BCWjm47nxwcFGYlIgdXkAx85XDO7cyky9J4QQfq8t0W19/TLZqq3JPQXtlv8BPIGmfa9Jb4scg==";
       };
     }
     {
@@ -6392,11 +6392,11 @@
       };
     }
     {
-      name = "undici___undici_5.28.0.tgz";
+      name = "undici___undici_5.28.1.tgz";
       path = fetchurl {
-        name = "undici___undici_5.28.0.tgz";
-        url = "https://registry.yarnpkg.com/undici/-/undici-5.28.0.tgz";
-        sha512 = "gM12DkXhlAc5+/TPe60iy9P6ETgVfqTuRJ6aQ4w8RYu0MqKuXhaq3/b86GfzDQnNA3NUO6aUNdvevrKH59D0Nw==";
+        name = "undici___undici_5.28.1.tgz";
+        url = "https://registry.yarnpkg.com/undici/-/undici-5.28.1.tgz";
+        sha512 = "xcIIvj1LOQH9zAL54iWFkuDEaIVEjLrru7qRpa3GrEEHk6OBhb/LycuUY2m7VCcTuDeLziXCxobQVyKExyGeIA==";
       };
     }
     {
