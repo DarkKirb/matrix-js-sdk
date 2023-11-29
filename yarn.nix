@@ -992,11 +992,11 @@
       };
     }
     {
-      name = "_babel_runtime___runtime_7.23.4.tgz";
+      name = "_babel_runtime___runtime_7.23.5.tgz";
       path = fetchurl {
-        name = "_babel_runtime___runtime_7.23.4.tgz";
-        url = "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.4.tgz";
-        sha512 = "2Yv65nlWnWlSpe3fXEyX5i7fx5kIKo4Qbcj+hMO0odwaneFjfXw5fdum+4yL20O0QiaHpia0cYQ9xpNMqrBwHg==";
+        name = "_babel_runtime___runtime_7.23.5.tgz";
+        url = "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.5.tgz";
+        sha512 = "NdUTHcPe4C99WxPub+K9l9tK5/lV4UXIoaHSYgzco9BCyjKAAwzdBI+wWtYqHt7LJdbo74ZjRPJgzVweq1sz0w==";
       };
     }
     {
