@@ -20,4 +20,5 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: matrix-org-develop
+          title: Update from matrix-org upstream
           token: ${{ secrets.PAT }}

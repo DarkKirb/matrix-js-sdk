@@ -20,4 +20,5 @@ jobs:
         with:
           author: GitHub <noreply@github.com>
           branch: maunium-develop
+          title: Update from maunium upstream
           token: ${{ secrets.PAT }}
