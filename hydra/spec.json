@@ -1,0 +1,41 @@
+{
+    "enabled": 1,
+    "hidden": false,
+    "description": "jobsets",
+    "nixexprinput": "matrix-js-sdk",
+    "nixexprpath": "hydra/jobsets.nix",
+    "checkinterval": 3600,
+    "schedulingshares": 100,
+    "enableemail": false,
+    "emailoverride": "",
+    "keepnr": 1,
+    "inputs": {
+        "matrix-js-sdk": {
+            "type": "git",
+            "value": "https://github.com/DarkKirb/matrix-js-sdk.git develop",
+            "emailresponsible": false
+        },
+        "nixpkgs": {
+            "type": "git",
+            "value": "https://github.com/NixOS/nixpkgs.git",
+            "emailresponsible": false
+        },
+        "prsJSON": {
+            "type": "githubpulls",
+            "value": "DarkKirb matrix-js-sdk",
+            "emailresponsible": false
+        },
+        "github_input": {
+            "type": "string",
+            "value": "matrix-js-sdk"
+        },
+        "github_repo_owner": {
+            "type": "string",
+            "value": "DarkKirb"
+        },
+        "github_repo_name": {
+            "type": "string",
+            "value": "matrix-js-sdk"
+        }
+    }
+}
