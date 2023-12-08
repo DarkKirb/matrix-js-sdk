@@ -6216,11 +6216,11 @@
       };
     }
     {
-      name = "ts_node___ts_node_10.9.1.tgz";
+      name = "ts_node___ts_node_10.9.2.tgz";
       path = fetchurl {
-        name = "ts_node___ts_node_10.9.1.tgz";
-        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz";
-        sha512 = "NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==";
+        name = "ts_node___ts_node_10.9.2.tgz";
+        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.2.tgz";
+        sha512 = "f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==";
       };
     }
     {
