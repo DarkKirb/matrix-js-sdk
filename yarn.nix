@@ -2840,11 +2840,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.607.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.607.tgz";
-        sha512 = "YUlnPwE6eYxzwBnFmawA8LiLRfm70R2aJRIUv0n03uHt/cUzzYACOogmvk8M2+hVzt/kB80KJXx7d5f5JofPvQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.608.tgz";
+        sha512 = "J2f/3iIIm3Mo0npneITZ2UPe4B1bg8fTNrFjD8715F/k1BvbviRuqYGkET1PgprrczXYTHFvotbBOmUp6KE0uA==";
       };
     }
     {
@@ -5816,11 +5816,11 @@
       };
     }
     {
-      name = "shiki___shiki_0.14.5.tgz";
+      name = "shiki___shiki_0.14.6.tgz";
       path = fetchurl {
-        name = "shiki___shiki_0.14.5.tgz";
-        url = "https://registry.yarnpkg.com/shiki/-/shiki-0.14.5.tgz";
-        sha512 = "1gCAYOcmCFONmErGTrS1fjzJLA7MGZmKzrBNX7apqSwhyITJg2O102uFzXUeBxNnEkDA9vHIKLyeKq0V083vIw==";
+        name = "shiki___shiki_0.14.6.tgz";
+        url = "https://registry.yarnpkg.com/shiki/-/shiki-0.14.6.tgz";
+        sha512 = "R4koBBlQP33cC8cpzX0hAoOURBHJILp4Aaduh2eYi+Vj8ZBqtK/5SWNEHBS3qwUMu8dqOtI/ftno3ESfNeVW9g==";
       };
     }
     {
