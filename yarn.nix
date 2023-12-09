@@ -2840,11 +2840,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.608.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.608.tgz";
-        sha512 = "J2f/3iIIm3Mo0npneITZ2UPe4B1bg8fTNrFjD8715F/k1BvbviRuqYGkET1PgprrczXYTHFvotbBOmUp6KE0uA==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.609.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.609.tgz";
+        sha512 = "ihiCP7PJmjoGNuLpl7TjNA8pCQWu09vGyjlPYw1Rqww4gvNuCcmvl+44G+2QyJ6S2K4o+wbTS++Xz0YN8Q9ERw==";
       };
     }
     {
@@ -6216,11 +6216,11 @@
       };
     }
     {
-      name = "ts_node___ts_node_10.9.1.tgz";
+      name = "ts_node___ts_node_10.9.2.tgz";
       path = fetchurl {
-        name = "ts_node___ts_node_10.9.1.tgz";
-        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.1.tgz";
-        sha512 = "NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==";
+        name = "ts_node___ts_node_10.9.2.tgz";
+        url = "https://registry.yarnpkg.com/ts-node/-/ts-node-10.9.2.tgz";
+        sha512 = "f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==";
       };
     }
     {
