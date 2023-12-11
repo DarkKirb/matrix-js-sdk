@@ -6368,11 +6368,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.6.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.7.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.6.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.6.tgz";
-        sha512 = "W593g/B1fNDGnEb/5mitYTYTkG+/YhlX1s5hFuxi+FizSqZ5ty+le5W65ipE83VXxm4VPrwEnsS2+ec6IFKrFw==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.7.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.7.tgz";
+        sha512 = "1tun7NLVzfZ1RD225bLaRKlDq5H3ssXSFJbbu05Typ+YMzky5yjbTdiPd3vMJ7I+jBLD5dXthbWvvh667r5kHw==";
       };
     }
     {
