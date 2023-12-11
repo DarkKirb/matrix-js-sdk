@@ -136,11 +136,11 @@
       };
     }
     {
-      name = "_babel_helper_compilation_targets___helper_compilation_targets_7.22.15.tgz";
+      name = "_babel_helper_compilation_targets___helper_compilation_targets_7.23.6.tgz";
       path = fetchurl {
-        name = "_babel_helper_compilation_targets___helper_compilation_targets_7.22.15.tgz";
-        url = "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.22.15.tgz";
-        sha512 = "y6EEzULok0Qvz8yyLkCvVX+02ic+By2UdOhylwUOvOn9dvYc9mKICJuuU1n1XBI02YWsNsnrY1kc6DVbjcXbtw==";
+        name = "_babel_helper_compilation_targets___helper_compilation_targets_7.23.6.tgz";
+        url = "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.23.6.tgz";
+        sha512 = "9JB548GZoQVmzrFgp8o7KxdgkTGm6xs9DW0o/Pim72UDjzr5ObUQ6ZzYPqA+g9OTS2bBQoctLJrky0RDCAWRgQ==";
       };
     }
     {
@@ -672,11 +672,11 @@
       };
     }
     {
-      name = "_babel_plugin_transform_for_of___plugin_transform_for_of_7.23.3.tgz";
+      name = "_babel_plugin_transform_for_of___plugin_transform_for_of_7.23.6.tgz";
       path = fetchurl {
-        name = "_babel_plugin_transform_for_of___plugin_transform_for_of_7.23.3.tgz";
-        url = "https://registry.yarnpkg.com/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.23.3.tgz";
-        sha512 = "X8jSm8X1CMwxmK878qsUGJRmbysKNbdpTv/O1/v0LuY/ZkZrng5WYiekYSdg9m09OTmDDUWeEDsTE+17WYbAZw==";
+        name = "_babel_plugin_transform_for_of___plugin_transform_for_of_7.23.6.tgz";
+        url = "https://registry.yarnpkg.com/@babel/plugin-transform-for-of/-/plugin-transform-for-of-7.23.6.tgz";
+        sha512 = "aYH4ytZ0qSuBbpfhuofbg/e96oQ7U2w1Aw/UQmKT+1l39uEhUPoFS3fHevDc1G0OvewyDudfMKY1OulczHzWIw==";
       };
     }
     {
@@ -952,11 +952,11 @@
       };
     }
     {
-      name = "_babel_preset_env___preset_env_7.23.5.tgz";
+      name = "_babel_preset_env___preset_env_7.23.6.tgz";
       path = fetchurl {
-        name = "_babel_preset_env___preset_env_7.23.5.tgz";
-        url = "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.23.5.tgz";
-        sha512 = "0d/uxVD6tFGWXGDSfyMD1p2otoaKmu6+GD+NfAx0tMaH+dxORnp7T9TaVQ6mKyya7iBtCIVxHjWT7MuzzM9z+A==";
+        name = "_babel_preset_env___preset_env_7.23.6.tgz";
+        url = "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.23.6.tgz";
+        sha512 = "2XPn/BqKkZCpzYhUUNZ1ssXw7DcXfKQEjv/uXZUXgaebCMYmkEsfZ2yY+vv+xtXv50WmL5SGhyB6/xsWxIvvOQ==";
       };
     }
     {
