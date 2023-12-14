@@ -3064,11 +3064,11 @@
       };
     }
     {
-      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_46.9.0.tgz";
+      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_46.9.1.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_46.9.0.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.9.0.tgz";
-        sha512 = "UQuEtbqLNkPf5Nr/6PPRCtr9xypXY+g8y/Q7gPa0YK7eDhh0y2lWprXRnaYbW7ACgIUvpDKy9X2bZqxtGzBG9Q==";
+        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_46.9.1.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-46.9.1.tgz";
+        sha512 = "11Ox5LCl2wY7gGkp9UOyew70o9qvii1daAH+h/MFobRVRNcy7sVlH+jm0HQdgcvcru6285GvpjpUyoa051j03Q==";
       };
     }
     {
@@ -5933,6 +5933,14 @@
         name = "spdx_expression_parse___spdx_expression_parse_3.0.1.tgz";
         url = "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-3.0.1.tgz";
         sha512 = "cbqHunsQWnJNE6KhVSMsMeH5H/L9EpymbzqTQ3uLwNCLZ1Q481oWaofqH7nO6V07xlXwY6PhQdQ2IedWx/ZK4Q==";
+      };
+    }
+    {
+      name = "spdx_expression_parse___spdx_expression_parse_4.0.0.tgz";
+      path = fetchurl {
+        name = "spdx_expression_parse___spdx_expression_parse_4.0.0.tgz";
+        url = "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-4.0.0.tgz";
+        sha512 = "Clya5JIij/7C6bRR22+tnGXbc4VKlibKSVj2iHvVeX5iMW7s1SIQlqu699JkODJJIhh/pUu8L0/VLh8xflD+LQ==";
       };
     }
     {
