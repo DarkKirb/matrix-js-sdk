@@ -1584,11 +1584,11 @@
       };
     }
     {
-      name = "_types_babel__generator___babel__generator_7.6.7.tgz";
+      name = "_types_babel__generator___babel__generator_7.6.8.tgz";
       path = fetchurl {
-        name = "_types_babel__generator___babel__generator_7.6.7.tgz";
-        url = "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.6.7.tgz";
-        sha512 = "6Sfsq+EaaLrw4RmdFWE9Onp63TOUue71AWb4Gpa6JxzgTYtimbM086WnYTy2U67AofR++QKCo08ZP6pwx8YFHQ==";
+        name = "_types_babel__generator___babel__generator_7.6.8.tgz";
+        url = "https://registry.yarnpkg.com/@types/babel__generator/-/babel__generator-7.6.8.tgz";
+        sha512 = "ASsj+tpEDsEiFr1arWrlN6V3mdfjRMZt6LtK/Vp/kreFLnr5QH5+DhvD5nINYZXzwJvXeGq+05iUXcAzVrqWtw==";
       };
     }
     {
@@ -1720,11 +1720,11 @@
       };
     }
     {
-      name = "_types_node___node_20.10.4.tgz";
+      name = "_types_node___node_20.10.5.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.10.4.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.4.tgz";
-        sha512 = "D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==";
+        name = "_types_node___node_20.10.5.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.10.5.tgz";
+        sha512 = "nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==";
       };
     }
     {
@@ -6376,11 +6376,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.7.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.8.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.7.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.7.tgz";
-        sha512 = "1tun7NLVzfZ1RD225bLaRKlDq5H3ssXSFJbbu05Typ+YMzky5yjbTdiPd3vMJ7I+jBLD5dXthbWvvh667r5kHw==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.8.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.8.tgz";
+        sha512 = "m2bcjsMghULmf0GBG+P6QwkWYF/7CTvlCefpYGTsIne5eL6wehVzE/RRlw+6qRjTR03FxBwgf/+UsasMRKEbPw==";
       };
     }
     {
