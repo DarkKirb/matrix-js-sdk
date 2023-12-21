@@ -5208,11 +5208,11 @@
       };
     }
     {
-      name = "p_retry___p_retry_6.1.0.tgz";
+      name = "p_retry___p_retry_6.2.0.tgz";
       path = fetchurl {
-        name = "p_retry___p_retry_6.1.0.tgz";
-        url = "https://registry.yarnpkg.com/p-retry/-/p-retry-6.1.0.tgz";
-        sha512 = "fJLEQ2KqYBJRuaA/8cKMnqhulqNM+bpcjYtXNex2t3mOXKRYPitAJt9NacSf8XAFzcYahSAbKpobiWDSqHSh2g==";
+        name = "p_retry___p_retry_6.2.0.tgz";
+        url = "https://registry.yarnpkg.com/p-retry/-/p-retry-6.2.0.tgz";
+        sha512 = "JA6nkq6hKyWLLasXQXUrO4z8BUZGUt/LjlJxx8Gb2+2ntodU/SS63YZ8b0LUTbQ8ZB9iwOfhEPhg4ykKnn2KsA==";
       };
     }
     {
