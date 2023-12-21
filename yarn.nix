@@ -2408,6 +2408,14 @@
       };
     }
     {
+      name = "ci_info___ci_info_4.0.0.tgz";
+      path = fetchurl {
+        name = "ci_info___ci_info_4.0.0.tgz";
+        url = "https://registry.yarnpkg.com/ci-info/-/ci-info-4.0.0.tgz";
+        sha512 = "TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==";
+      };
+    }
+    {
       name = "cjs_module_lexer___cjs_module_lexer_1.2.3.tgz";
       path = fetchurl {
         name = "cjs_module_lexer___cjs_module_lexer_1.2.3.tgz";
@@ -3088,11 +3096,11 @@
       };
     }
     {
-      name = "eslint_plugin_unicorn___eslint_plugin_unicorn_49.0.0.tgz";
+      name = "eslint_plugin_unicorn___eslint_plugin_unicorn_50.0.1.tgz";
       path = fetchurl {
-        name = "eslint_plugin_unicorn___eslint_plugin_unicorn_49.0.0.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-49.0.0.tgz";
-        sha512 = "0fHEa/8Pih5cmzFW5L7xMEfUTvI9WKeQtjmKpTUmY+BiFCDxkxrTdnURJOHKykhtwIeyYsxnecbGvDCml++z4Q==";
+        name = "eslint_plugin_unicorn___eslint_plugin_unicorn_50.0.1.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-50.0.1.tgz";
+        sha512 = "KxenCZxqSYW0GWHH18okDlOQcpezcitm5aOSz6EnobyJ6BIByiPDviQRjJIUAjG/tMN11958MxaQ+qCoU6lfDA==";
       };
     }
     {
