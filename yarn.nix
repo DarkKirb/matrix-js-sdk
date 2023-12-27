@@ -6744,11 +6744,11 @@
       };
     }
     {
-      name = "ws___ws_8.15.1.tgz";
+      name = "ws___ws_8.16.0.tgz";
       path = fetchurl {
-        name = "ws___ws_8.15.1.tgz";
-        url = "https://registry.yarnpkg.com/ws/-/ws-8.15.1.tgz";
-        sha512 = "W5OZiCjXEmk0yZ66ZN82beM5Sz7l7coYxpRkzS+p9PP+ToQry8szKh+61eNktr7EA9DOwvFGhfC605jDHbP6QQ==";
+        name = "ws___ws_8.16.0.tgz";
+        url = "https://registry.yarnpkg.com/ws/-/ws-8.16.0.tgz";
+        sha512 = "HS0c//TP7Ina87TfiPUz1rQzMhHrl/SG2guqRcTOIUYD2q8uhUdNHZYJUaQ8aTGPzCh+c6oawMKW35nFl1dxyQ==";
       };
     }
     {
