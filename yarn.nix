@@ -6416,11 +6416,11 @@
       };
     }
     {
-      name = "typedoc___typedoc_0.25.4.tgz";
+      name = "typedoc___typedoc_0.25.5.tgz";
       path = fetchurl {
-        name = "typedoc___typedoc_0.25.4.tgz";
-        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.25.4.tgz";
-        sha512 = "Du9ImmpBCw54bX275yJrxPVnjdIyJO/84co0/L9mwe0R3G4FSR6rQ09AlXVRvZEGMUg09+z/usc8mgygQ1aidA==";
+        name = "typedoc___typedoc_0.25.5.tgz";
+        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.25.5.tgz";
+        sha512 = "K9HzybxB2pqZwUkJvOCbdGEIvOidMdUoUtJavpzw/rnw8Rm5bM6HugIKbGLveCmeojUEUqYO8Fqgdmnp0R2Vqg==";
       };
     }
     {
