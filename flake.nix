@@ -30,11 +30,11 @@
         ...
       }: {
         _module.args.pkgs = import inputs.nixpkgs {
-            inherit system;
-            overlays = [
-                (import "${inputs.nixtoo}/overlay.nix")
-            ];
-            config.contentAddressedByDefault = true;
+          inherit system;
+          overlays = [
+            (import "${inputs.nixtoo}/overlay.nix")
+          ];
+          config.contentAddressedByDefault = true;
         };
         devshells.default.devshell.packages = with pkgs; [
           nodejs
