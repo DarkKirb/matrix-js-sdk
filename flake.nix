@@ -11,8 +11,6 @@
       inputs.nixpkgs-lib.follows = "nixpkgs";
     };
     nixpkgs.url = "github:NixOS/nixpkgs";
-    nixtoo.url = "github:DarkKirb/nixtoo";
-    nixtoo.flake = false;
   };
 
   outputs = inputs @ {flake-parts, ...}:
@@ -29,13 +27,6 @@
         system,
         ...
       }: {
-        _module.args.pkgs = import inputs.nixpkgs {
-            inherit system;
-            overlays = [
-                (import "${inputs.nixtoo}/overlay.nix")
-            ];
-            config.contentAddressedByDefault = true;
-        };
         devshells.default.devshell.packages = with pkgs; [
           nodejs
           yarn
