@@ -168,6 +168,14 @@
       };
     }
     {
+      name = "_babel_helper_define_polyfill_provider___helper_define_polyfill_provider_0.5.0.tgz";
+      path = fetchurl {
+        name = "_babel_helper_define_polyfill_provider___helper_define_polyfill_provider_0.5.0.tgz";
+        url = "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.5.0.tgz";
+        sha512 = "NovQquuQLAQ5HuyjCz7WQP9MjRj7dx++yspwiyUiGl9ZyadHRSql1HZh5ogRd8W8w6YM6EQ/NTB8rgjLt5W65Q==";
+      };
+    }
+    {
       name = "_babel_helper_environment_visitor___helper_environment_visitor_7.22.20.tgz";
       path = fetchurl {
         name = "_babel_helper_environment_visitor___helper_environment_visitor_7.22.20.tgz";
@@ -1720,11 +1728,11 @@
       };
     }
     {
-      name = "_types_node___node_20.11.4.tgz";
+      name = "_types_node___node_20.11.5.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.11.4.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.4.tgz";
-        sha512 = "6I0fMH8Aoy2lOejL3s4LhyIYX34DPwY8bl5xlNjBvUEk8OHrcuzsFt+Ied4LvJihbtXPM+8zUqdydfIti86v9g==";
+        name = "_types_node___node_20.11.5.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.5.tgz";
+        sha512 = "g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==";
       };
     }
     {
@@ -2208,11 +2216,11 @@
       };
     }
     {
-      name = "babel_plugin_polyfill_corejs2___babel_plugin_polyfill_corejs2_0.4.7.tgz";
+      name = "babel_plugin_polyfill_corejs2___babel_plugin_polyfill_corejs2_0.4.8.tgz";
       path = fetchurl {
-        name = "babel_plugin_polyfill_corejs2___babel_plugin_polyfill_corejs2_0.4.7.tgz";
-        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.4.7.tgz";
-        sha512 = "LidDk/tEGDfuHW2DWh/Hgo4rmnw3cduK6ZkOI1NPFceSK3n/yAGeOsNT7FLnSGHkXj3RHGSEVkN3FsCTY6w2CQ==";
+        name = "babel_plugin_polyfill_corejs2___babel_plugin_polyfill_corejs2_0.4.8.tgz";
+        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs2/-/babel-plugin-polyfill-corejs2-0.4.8.tgz";
+        sha512 = "OtIuQfafSzpo/LhnJaykc0R/MMnuLSSVjVYy9mHArIZ9qTCSZ6TpWCuEKZYVoN//t8HqBNScHrOtCrIK5IaGLg==";
       };
     }
     {
@@ -2224,11 +2232,11 @@
       };
     }
     {
-      name = "babel_plugin_polyfill_regenerator___babel_plugin_polyfill_regenerator_0.5.4.tgz";
+      name = "babel_plugin_polyfill_regenerator___babel_plugin_polyfill_regenerator_0.5.5.tgz";
       path = fetchurl {
-        name = "babel_plugin_polyfill_regenerator___babel_plugin_polyfill_regenerator_0.5.4.tgz";
-        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.5.4.tgz";
-        sha512 = "S/x2iOCvDaCASLYsOOgWOq4bCfKYVqvO/uxjkaYyZ3rVsVE3CeAI/c84NpyuBBymEgNvHgjEot3a9/Z/kXvqsg==";
+        name = "babel_plugin_polyfill_regenerator___babel_plugin_polyfill_regenerator_0.5.5.tgz";
+        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-regenerator/-/babel-plugin-polyfill-regenerator-0.5.5.tgz";
+        sha512 = "OJGYZlhLqBh2DDHeqAxWB1XIvr49CxiJ2gIt61/PU55CQK4Z58OzMqjDe1zwQdQk+rBYsRc+1rJmdajM3gimHg==";
       };
     }
     {
@@ -2384,11 +2392,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001577.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001579.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001577.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001577.tgz";
-        sha512 = "rs2ZygrG1PNXMfmncM0B5H1hndY5ZCC9b5TkFaVNfZ+AUlyqcMyVIQtc3fsezi0NUCk5XZfDf9WS6WxMxnfdrg==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001579.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001579.tgz";
+        sha512 = "u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==";
       };
     }
     {
@@ -2888,11 +2896,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.632.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.639.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.632.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.632.tgz";
-        sha512 = "JGmudTwg7yxMYvR/gWbalqqQiyu7WTFv2Xu3vw4cJHXPFxNgAk0oy8UHaer8nLF4lZJa+rNoj6GsrKIVJTV6Tw==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.639.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.639.tgz";
+        sha512 = "CkKf3ZUVZchr+zDpAlNLEEy2NJJ9T64ULWaDgy3THXXlPVPkLu3VOs9Bac44nebVtdwl2geSj6AxTtGDOxoXhg==";
       };
     }
     {
@@ -5432,11 +5440,11 @@
       };
     }
     {
-      name = "prettier___prettier_3.1.1.tgz";
+      name = "prettier___prettier_3.2.2.tgz";
       path = fetchurl {
-        name = "prettier___prettier_3.1.1.tgz";
-        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz";
-        sha512 = "22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==";
+        name = "prettier___prettier_3.2.2.tgz";
+        url = "https://registry.yarnpkg.com/prettier/-/prettier-3.2.2.tgz";
+        sha512 = "HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==";
       };
     }
     {
