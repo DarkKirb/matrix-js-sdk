@@ -1728,11 +1728,11 @@
       };
     }
     {
-      name = "_types_node___node_20.11.5.tgz";
+      name = "_types_node___node_20.11.6.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.11.5.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.5.tgz";
-        sha512 = "g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==";
+        name = "_types_node___node_20.11.6.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.11.6.tgz";
+        sha512 = "+EOokTnksGVgip2PbYbr3xnR7kZigh4LbybAfBAw5BpnQ+FqBYUsvCEjYd70IXKlbohQ64mzEYmMtlWUY8q//Q==";
       };
     }
     {
