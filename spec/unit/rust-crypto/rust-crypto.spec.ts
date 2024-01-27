@@ -46,7 +46,7 @@ import {
 } from "../../../src";
 import { mkEvent } from "../../test-utils/test-utils";
 import { CryptoBackend } from "../../../src/common-crypto/CryptoBackend";
-import { IEventDecryptionResult } from "../../../src/@types/crypto";
+import { IEventDecryptionResult, IMegolmSessionData } from "../../../src/@types/crypto";
 import { OutgoingRequestProcessor } from "../../../src/rust-crypto/OutgoingRequestProcessor";
 import {
     AccountDataClient,
@@ -696,6 +696,58 @@ describe("RustCrypto", () => {
             await awaitCallToMakeOutgoingRequest();
             expect(olmMachine.outgoingRequests).toHaveBeenCalledTimes(2);
         });
+
+        it("should encode outgoing requests properly", async () => {
+            // we need a real OlmMachine, so replace the one created by beforeEach
+            rustCrypto = await makeTestRustCrypto();
+            const olmMachine: OlmMachine = rustCrypto["olmMachine"];
+
+            const outgoingRequestProcessor = {} as unknown as OutgoingRequestProcessor;
+            rustCrypto["outgoingRequestProcessor"] = outgoingRequestProcessor;
+            const outgoingRequestsManager = new OutgoingRequestsManager(logger, olmMachine, outgoingRequestProcessor);
+            rustCrypto["outgoingRequestsManager"] = outgoingRequestsManager;
+
+            // The second time we do a /keys/upload, the `device_keys` property
+            // should be absent from the request body
+            // cf. https://github.com/matrix-org/matrix-rust-sdk-crypto-wasm/issues/57
+            //
+            // On the first upload, we pretend that there are no OTKs, so it will
+            // try to upload more keys
+            let keysUploadCount = 0;
+            let deviceKeys: object;
+            let deviceKeysAbsent = false;
+            outgoingRequestProcessor.makeOutgoingRequest = jest.fn(async (request, uiaCallback?) => {
+                let resp: any = {};
+                if (request instanceof RustSdkCryptoJs.KeysUploadRequest) {
+                    if (keysUploadCount == 0) {
+                        deviceKeys = JSON.parse(request.body).device_keys;
+                        resp = { one_time_key_counts: { signed_curve25519: 0 } };
+                    } else {
+                        deviceKeysAbsent = !("device_keys" in JSON.parse(request.body));
+                        resp = { one_time_key_counts: { signed_curve25519: 50 } };
+                    }
+                    keysUploadCount++;
+                } else if (request instanceof RustSdkCryptoJs.KeysQueryRequest) {
+                    resp = {
+                        device_keys: {
+                            [TEST_USER]: {
+                                [TEST_DEVICE_ID]: deviceKeys,
+                            },
+                        },
+                    };
+                } else if (request instanceof RustSdkCryptoJs.UploadSigningKeysRequest) {
+                    // SigningKeysUploadRequest does not implement OutgoingRequest and does not need to be marked as sent.
+                    return;
+                }
+                if (request.id) {
+                    olmMachine.markRequestAsSent(request.id, request.type, JSON.stringify(resp));
+                }
+            });
+            await outgoingRequestsManager.doProcessOutgoingRequests();
+            await outgoingRequestsManager.doProcessOutgoingRequests();
+
+            expect(deviceKeysAbsent).toBe(true);
+        });
     });
 
     describe(".getEventEncryptionInfo", () => {
@@ -1258,6 +1310,34 @@ describe("RustCrypto", () => {
                         },
                     },
                 },
+            });
+        });
+
+        it("ignores invalid keys when restoring from backup", async () => {
+            const rustCrypto = await makeTestRustCrypto();
+            const olmMachine: OlmMachine = rustCrypto["olmMachine"];
+
+            await olmMachine.enableBackupV1(
+                (testData.SIGNED_BACKUP_DATA.auth_data as Curve25519AuthData).public_key,
+                testData.SIGNED_BACKUP_DATA.version!,
+            );
+
+            const backup = Array.from(testData.MEGOLM_SESSION_DATA_ARRAY);
+            // in addition to correct keys, we restore an invalid key
+            backup.push({ room_id: "!roomid", session_id: "sessionid" } as IMegolmSessionData);
+            const progressCallback = jest.fn();
+            await rustCrypto.importBackedUpRoomKeys(backup, { progressCallback });
+            expect(progressCallback).toHaveBeenCalledWith({
+                total: 3,
+                successes: 0,
+                stage: "load_keys",
+                failures: 1,
+            });
+            expect(progressCallback).toHaveBeenCalledWith({
+                total: 3,
+                successes: 1,
+                stage: "load_keys",
+                failures: 1,
             });
         });
     });
