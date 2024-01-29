@@ -6424,11 +6424,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.13.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.14.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.13.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.13.tgz";
-        sha512 = "GDS6wz63kj9JcR4ewGgLzhAlhg3GVxh5d6IRuhmRcLO+LziYyDySa6QFWqrVkWkNoVsfw0IABIhkAj6GdrlwwA==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.14.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.14.tgz";
+        sha512 = "zPnzIHvMChiuS4BvI4mbs89HwS6HSPE+q7rPRliJCeIkQYqW7YaTXuBwbUQFPg++02KNUY0IMp0MFvouoi1Qgw==";
       };
     }
     {
