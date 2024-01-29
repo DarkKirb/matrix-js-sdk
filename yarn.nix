@@ -5784,11 +5784,11 @@
       };
     }
     {
-      name = "sdp_transform___sdp_transform_2.14.1.tgz";
+      name = "sdp_transform___sdp_transform_2.14.2.tgz";
       path = fetchurl {
-        name = "sdp_transform___sdp_transform_2.14.1.tgz";
-        url = "https://registry.yarnpkg.com/sdp-transform/-/sdp-transform-2.14.1.tgz";
-        sha512 = "RjZyX3nVwJyCuTo5tGPx+PZWkDMCg7oOLpSlhjDdZfwUoNqG1mM8nyj31IGHyaPWXhjbP7cdK3qZ2bmkJ1GzRw==";
+        name = "sdp_transform___sdp_transform_2.14.2.tgz";
+        url = "https://registry.yarnpkg.com/sdp-transform/-/sdp-transform-2.14.2.tgz";
+        sha512 = "icY6jVao7MfKCieyo1AyxFYm1baiM+fA00qW/KrNNVlkxHAd34riEKuEkUe4bBb3gJwLJZM+xT60Yj1QL8rHiA==";
       };
     }
     {
