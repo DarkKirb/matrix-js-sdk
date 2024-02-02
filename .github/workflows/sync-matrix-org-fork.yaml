@@ -16,7 +16,7 @@ jobs:
       - run: git remote add upstream https://github.com/matrix-org/matrix-js-sdk
       - run: git fetch upstream
       - run: git reset --hard upstream/develop
-      - uses: peter-evans/create-pull-request@v5
+      - uses: peter-evans/create-pull-request@v6
         with:
           author: GitHub <noreply@github.com>
           branch: matrix-org-develop
