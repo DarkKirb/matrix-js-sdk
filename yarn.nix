@@ -1328,11 +1328,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_4.1.0.tgz";
+      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_4.3.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_4.1.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-4.1.0.tgz";
-        sha512 = "/jCyvpDmgAybQWiRMmzflm4cneaRNVt8USqEV1RxoHBzlIE68LtLc9/HCfaPjkY7aYLHTbCrThR9GFXRWGyRxQ==";
+        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_4.3.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-4.3.0.tgz";
+        sha512 = "05+NO78pXda/MTxi05NJwBbbAsOmU6WywBOcAk9GarPzgvrj4GvOuYTY6VR5PD7Gzb3AI+vNx/Ho4V0GFKPW/w==";
       };
     }
     {
@@ -1976,11 +1976,11 @@
       };
     }
     {
-      name = "allchange___allchange_1.1.0.tgz";
+      name = "allchange___allchange_1.3.0.tgz";
       path = fetchurl {
-        name = "allchange___allchange_1.1.0.tgz";
-        url = "https://registry.yarnpkg.com/allchange/-/allchange-1.1.0.tgz";
-        sha512 = "brDWf2feuL3FRyivSyC6AKOgpX+bYgs1Z7+ZmLti6PnBdZgIjRSnKvlc68N8+1UX2rCISx2I+XuUvE3/GJNG2A==";
+        name = "allchange___allchange_1.3.0.tgz";
+        url = "https://registry.yarnpkg.com/allchange/-/allchange-1.3.0.tgz";
+        sha512 = "orTQYJQzY98ZNvh9VFpBpxLry9obXvDOYuQZXDnTL/YJL3sphgr93norJrR8Qz8mNlJ3yEm1YS+aEEbC3/3Wjg==";
       };
     }
     {
