@@ -2680,14 +2680,6 @@
       };
     }
     {
-      name = "crypto_js___crypto_js_4.2.0.tgz";
-      path = fetchurl {
-        name = "crypto_js___crypto_js_4.2.0.tgz";
-        url = "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz";
-        sha512 = "KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==";
-      };
-    }
-    {
       name = "cssom___cssom_0.5.0.tgz";
       path = fetchurl {
         name = "cssom___cssom_0.5.0.tgz";
@@ -4648,14 +4640,6 @@
       };
     }
     {
-      name = "jwt_decode___jwt_decode_3.1.2.tgz";
-      path = fetchurl {
-        name = "jwt_decode___jwt_decode_3.1.2.tgz";
-        url = "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.1.2.tgz";
-        sha512 = "UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==";
-      };
-    }
-    {
       name = "jwt_decode___jwt_decode_4.0.0.tgz";
       path = fetchurl {
         name = "jwt_decode___jwt_decode_4.0.0.tgz";
@@ -5168,11 +5152,11 @@
       };
     }
     {
-      name = "oidc_client_ts___oidc_client_ts_2.4.0.tgz";
+      name = "oidc_client_ts___oidc_client_ts_3.0.0.tgz";
       path = fetchurl {
-        name = "oidc_client_ts___oidc_client_ts_2.4.0.tgz";
-        url = "https://registry.yarnpkg.com/oidc-client-ts/-/oidc-client-ts-2.4.0.tgz";
-        sha512 = "WijhkTrlXK2VvgGoakWJiBdfIsVGz6CFzgjNNqZU1hPKV2kyeEaJgLs7RwuiSp2WhLfWBQuLvr2SxVlZnk3N1w==";
+        name = "oidc_client_ts___oidc_client_ts_3.0.0.tgz";
+        url = "https://registry.yarnpkg.com/oidc-client-ts/-/oidc-client-ts-3.0.0.tgz";
+        sha512 = "YUcel/+C4AmXXhM/geNWc1jBsBVYzd+xhvSl1NMkxKpzZXqhLKmtj1ttSdxtDYm3P2YelnAr4zS4c96+p02iFQ==";
       };
     }
     {
