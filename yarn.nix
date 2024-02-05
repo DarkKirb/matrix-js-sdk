@@ -4704,11 +4704,11 @@
       };
     }
     {
-      name = "lint_staged___lint_staged_15.2.1.tgz";
+      name = "lint_staged___lint_staged_15.2.2.tgz";
       path = fetchurl {
-        name = "lint_staged___lint_staged_15.2.1.tgz";
-        url = "https://registry.yarnpkg.com/lint-staged/-/lint-staged-15.2.1.tgz";
-        sha512 = "dhwAPnM85VdshybV9FWI/9ghTvMLoQLEXgVMx+ua2DN7mdfzd/tRfoU2yhMcBac0RHkofoxdnnJUokr8s4zKmQ==";
+        name = "lint_staged___lint_staged_15.2.2.tgz";
+        url = "https://registry.yarnpkg.com/lint-staged/-/lint-staged-15.2.2.tgz";
+        sha512 = "TiTt93OPh1OZOsb5B7k96A/ATl2AjIZo+vnzFZ6oHK5FuTk63ByDtxGQpHm+kFETjEWqgkF95M8FRXKR/LEBcw==";
       };
     }
     {
