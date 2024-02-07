@@ -8336,11 +8336,11 @@ export class MatrixClient extends TypedEventEmitter<EmittedEvents, ClientEventHa
 
     /**
      * Get the content of a redacted event event in a room by its event id.
-     * @param roomId
-     * @param eventId
+     * @param roomId - The room for the event
+     * @param eventId - The id of the event
      *
-     * @return Resolves to an object containing the event.
-     * @return Rejects: with an error response.
+     * @returns Resolves to an object containing the event.
+     * @returns Rejects: with an error response.
      */
     public unstableFetchRedactedRoomEventContent(roomId: string, eventId: string): Promise<IMinimalEvent> {
         const path = utils.encodeUri("/rooms/$roomId/event/$eventId", {
