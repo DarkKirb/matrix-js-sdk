@@ -1216,11 +1216,11 @@
       };
     }
     {
-      name = "_es_joy_jsdoccomment___jsdoccomment_0.41.0.tgz";
+      name = "_es_joy_jsdoccomment___jsdoccomment_0.42.0.tgz";
       path = fetchurl {
-        name = "_es_joy_jsdoccomment___jsdoccomment_0.41.0.tgz";
-        url = "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.41.0.tgz";
-        sha512 = "aKUhyn1QI5Ksbqcr3fFJj16p99QdjUxXAEuFst1Z47DRyoiMwivIH9MV/ARcJOCXVjPfjITciej8ZD2O/6qUmw==";
+        name = "_es_joy_jsdoccomment___jsdoccomment_0.42.0.tgz";
+        url = "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.42.0.tgz";
+        sha512 = "R1w57YlVA6+YE01wch3GPYn6bCsrOV3YW/5oGGE2tmX6JcL9Nr+b5IikrjMPF+v9CV3ay+obImEdsDhovhJrzw==";
       };
     }
     {
@@ -3336,11 +3336,11 @@
       };
     }
     {
-      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.0.4.tgz";
+      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.0.6.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.0.4.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.0.4.tgz";
-        sha512 = "A0cH+5svWPXzGZszBjXA1t0aAqVGS+/x3i02KFmb73rU0iMLnadEcVWcD/dGBZHIfAMKr3YpWh58f6wn4N909w==";
+        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.0.6.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.0.6.tgz";
+        sha512 = "LgwXOX6TWxxFYcbdVe+BJ94Kl/pgjSPYHLzqEdAMXTA1BH9WDx7iJ+9/iDajPF64LtzWX8C1mCfpbMZjJGhAOw==";
       };
     }
     {
@@ -6032,11 +6032,11 @@
       };
     }
     {
-      name = "semver___semver_7.5.4.tgz";
+      name = "semver___semver_7.6.0.tgz";
       path = fetchurl {
-        name = "semver___semver_7.5.4.tgz";
-        url = "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz";
-        sha512 = "1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==";
+        name = "semver___semver_7.6.0.tgz";
+        url = "https://registry.yarnpkg.com/semver/-/semver-7.6.0.tgz";
+        sha512 = "EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==";
       };
     }
     {
