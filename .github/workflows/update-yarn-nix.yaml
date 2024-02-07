@@ -4,9 +4,11 @@ on:
         paths:
             - "**/package.json"
             - "**/yarn.lock"
+    pull_request_target:
+        paths:
+            - "**/package.json"
+            - "**/yarn.lock"
     workflow_dispatch: {}
-permissions:
-    contents: write
 jobs:
     update-cargo-nix:
         runs-on: ubuntu-latest
