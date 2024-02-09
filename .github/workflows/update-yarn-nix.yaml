@@ -1,9 +1,5 @@
 name: Automatically update yarn.nix
 on:
-    push:
-        paths:
-            - "**/package.json"
-            - "**/yarn.lock"
     pull_request_target:
         paths:
             - "**/package.json"
@@ -15,6 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
               with:
+                  ref: ${{ github.head_ref }}
                   token: ${{ secrets.PAT }}
             - uses: cachix/install-nix-action@v25
               with:
