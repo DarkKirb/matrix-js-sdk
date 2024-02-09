@@ -1200,11 +1200,11 @@
       };
     }
     {
-      name = "_casualbot_jest_sonar_reporter___jest_sonar_reporter_2.2.7.tgz";
+      name = "_casualbot_jest_sonar_reporter___jest_sonar_reporter_2.3.1.tgz";
       path = fetchurl {
-        name = "_casualbot_jest_sonar_reporter___jest_sonar_reporter_2.2.7.tgz";
-        url = "https://registry.yarnpkg.com/@casualbot/jest-sonar-reporter/-/jest-sonar-reporter-2.2.7.tgz";
-        sha512 = "iswhPNodtcOQzfXR3TkD0A/8yHr5fnC86Ryt5UAqrJWfMI8mPZ9mpjykHnibbf91SjNtELv7ApZtha0bdWOmoQ==";
+        name = "_casualbot_jest_sonar_reporter___jest_sonar_reporter_2.3.1.tgz";
+        url = "https://registry.yarnpkg.com/@casualbot/jest-sonar-reporter/-/jest-sonar-reporter-2.3.1.tgz";
+        sha512 = "gND9elyG+0024l9g1nebd/9rdLyR6K28tycLiVOgWYaML/X7rSFjvzdbO693CKsV+M8c+6Rl9EocmPasNJukXg==";
       };
     }
     {
