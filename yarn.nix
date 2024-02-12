@@ -6096,11 +6096,11 @@
       };
     }
     {
-      name = "shiki___shiki_0.14.3.tgz";
+      name = "shiki___shiki_0.14.7.tgz";
       path = fetchurl {
-        name = "shiki___shiki_0.14.3.tgz";
-        url = "https://registry.yarnpkg.com/shiki/-/shiki-0.14.3.tgz";
-        sha512 = "U3S/a+b0KS+UkTyMjoNojvTgrBHjgp7L6ovhFVZsXmBGnVdQ4K4U9oK0z63w538S91ATngv1vXigHCSWOwnr+g==";
+        name = "shiki___shiki_0.14.7.tgz";
+        url = "https://registry.yarnpkg.com/shiki/-/shiki-0.14.7.tgz";
+        sha512 = "dNPAPrxSc87ua2sKJ3H5dQ/6ZaY8RNnaAqK+t0eG7p0Soi2ydiqbGOTaZCqaYvA/uZYfS1LJnemt3Q+mSfcPCg==";
       };
     }
     {
@@ -6696,11 +6696,11 @@
       };
     }
     {
-      name = "typedoc___typedoc_0.24.8.tgz";
+      name = "typedoc___typedoc_0.25.8.tgz";
       path = fetchurl {
-        name = "typedoc___typedoc_0.24.8.tgz";
-        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.24.8.tgz";
-        sha512 = "ahJ6Cpcvxwaxfu4KtjA8qZNqS43wYt6JL27wYiIgl1vd38WW/KWX11YuAeZhuz9v+ttrutSsgK+XO1CjL1kA3w==";
+        name = "typedoc___typedoc_0.25.8.tgz";
+        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.25.8.tgz";
+        sha512 = "mh8oLW66nwmeB9uTa0Bdcjfis+48bAjSH3uqdzSuSawfduROQLlXw//WSNZLYDdhmMVB7YcYZicq6e8T0d271A==";
       };
     }
     {
