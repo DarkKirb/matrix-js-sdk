@@ -4672,6 +4672,14 @@
       };
     }
     {
+      name = "jwt_decode___jwt_decode_4.0.0.tgz";
+      path = fetchurl {
+        name = "jwt_decode___jwt_decode_4.0.0.tgz";
+        url = "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-4.0.0.tgz";
+        sha512 = "+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA==";
+      };
+    }
+    {
       name = "keyv___keyv_4.5.4.tgz";
       path = fetchurl {
         name = "keyv___keyv_4.5.4.tgz";
