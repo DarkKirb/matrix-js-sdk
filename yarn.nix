@@ -40,11 +40,11 @@
       };
     }
     {
-      name = "_babel_cli___cli_7.23.9.tgz";
+      name = "_babel_cli___cli_7.24.1.tgz";
       path = fetchurl {
-        name = "_babel_cli___cli_7.23.9.tgz";
-        url = "https://registry.yarnpkg.com/@babel/cli/-/cli-7.23.9.tgz";
-        sha512 = "vB1UXmGDNEhcf1jNAHKT9IlYk1R+hehVTLFlCLHBi8gfuHQGP6uRjgXVYU0EVlI/qwAWpstqkBdf2aez3/z/5Q==";
+        name = "_babel_cli___cli_7.24.1.tgz";
+        url = "https://registry.yarnpkg.com/@babel/cli/-/cli-7.24.1.tgz";
+        sha512 = "HbmrtxyFUr34LwAlV9jS+sSIjUp4FpdtIMGwgufY3AsxrIfsh/HxlMTywsONAZsU0RMYbZtbZFpUCrSGs7o0EA==";
       };
     }
     {
