@@ -536,11 +536,11 @@
       };
     }
     {
-      name = "_babel_plugin_transform_async_generator_functions___plugin_transform_async_generator_functions_7.24.1.tgz";
+      name = "_babel_plugin_transform_async_generator_functions___plugin_transform_async_generator_functions_7.24.3.tgz";
       path = fetchurl {
-        name = "_babel_plugin_transform_async_generator_functions___plugin_transform_async_generator_functions_7.24.1.tgz";
-        url = "https://registry.yarnpkg.com/@babel/plugin-transform-async-generator-functions/-/plugin-transform-async-generator-functions-7.24.1.tgz";
-        sha512 = "OTkLJM0OtmzcpOgF7MREERUCdCnCBtBsq3vVFbuq/RKMK0/jdYqdMexWi3zNs7Nzd95ase65MbTGrpFJflOb6A==";
+        name = "_babel_plugin_transform_async_generator_functions___plugin_transform_async_generator_functions_7.24.3.tgz";
+        url = "https://registry.yarnpkg.com/@babel/plugin-transform-async-generator-functions/-/plugin-transform-async-generator-functions-7.24.3.tgz";
+        sha512 = "Qe26CMYVjpQxJ8zxM1340JFNjZaF+ISWpr1Kt/jGo+ZTUzKkfw/pphEWbRCb+lmSM6k/TOgfYLvmbHkUQ0asIg==";
       };
     }
     {
@@ -928,11 +928,11 @@
       };
     }
     {
-      name = "_babel_preset_env___preset_env_7.24.1.tgz";
+      name = "_babel_preset_env___preset_env_7.24.3.tgz";
       path = fetchurl {
-        name = "_babel_preset_env___preset_env_7.24.1.tgz";
-        url = "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.24.1.tgz";
-        sha512 = "CwCMz1Z28UHLI2iE+cbnWT2epPMV9bzzoBGM6A3mOS22VQd/1TPoWItV7S7iL9TkPmPEf5L/QzurmztyyDN9FA==";
+        name = "_babel_preset_env___preset_env_7.24.3.tgz";
+        url = "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.24.3.tgz";
+        sha512 = "fSk430k5c2ff8536JcPvPWK4tZDwehWLGlBp0wrsBUjZVdeQV6lePbwKWZaZfK2vnh/1kQX1PzAJWsnBmVgGJA==";
       };
     }
     {
@@ -2104,11 +2104,11 @@
       };
     }
     {
-      name = "babel_plugin_polyfill_corejs3___babel_plugin_polyfill_corejs3_0.10.1.tgz";
+      name = "babel_plugin_polyfill_corejs3___babel_plugin_polyfill_corejs3_0.10.4.tgz";
       path = fetchurl {
-        name = "babel_plugin_polyfill_corejs3___babel_plugin_polyfill_corejs3_0.10.1.tgz";
-        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.10.1.tgz";
-        sha512 = "XiFei6VGwM4ii6nKC1VCenGD8Z4bjiNYcrdkM8oqM3pbuemmyb8biMgrDX1ZHSbIuMLXatM6JJ/StPYIuTl6MQ==";
+        name = "babel_plugin_polyfill_corejs3___babel_plugin_polyfill_corejs3_0.10.4.tgz";
+        url = "https://registry.yarnpkg.com/babel-plugin-polyfill-corejs3/-/babel-plugin-polyfill-corejs3-0.10.4.tgz";
+        sha512 = "25J6I8NGfa5YkCDogHRID3fVCadIR8/pGl1/spvCkzb6lVn6SR3ojpx9nOn9iEBcUsjY24AmdKm5khcfKdylcg==";
       };
     }
     {
