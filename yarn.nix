@@ -64,11 +64,11 @@
       };
     }
     {
-      name = "_babel_core___core_7.24.1.tgz";
+      name = "_babel_core___core_7.24.3.tgz";
       path = fetchurl {
-        name = "_babel_core___core_7.24.1.tgz";
-        url = "https://registry.yarnpkg.com/@babel/core/-/core-7.24.1.tgz";
-        sha512 = "F82udohVyIgGAY2VVj/g34TpFUG606rumIHjTfVbssPg2zTR7PuuEpZcX8JA6sgBfIYmJrFtWgPvHQuJamVqZQ==";
+        name = "_babel_core___core_7.24.3.tgz";
+        url = "https://registry.yarnpkg.com/@babel/core/-/core-7.24.3.tgz";
+        sha512 = "5FcvN1JHw2sHJChotgx8Ek0lyuh4kCKelgMTTqhYJJtloNvUfpAFMeNQUtdlIaktwrSV9LtCdqwk48wL2wBacQ==";
       };
     }
     {
