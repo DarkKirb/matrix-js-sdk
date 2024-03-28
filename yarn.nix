@@ -2960,11 +2960,11 @@
       };
     }
     {
-      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.1.tgz";
+      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.2.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.1.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.1.tgz";
-        sha512 = "iUvbcyDZSO/9xSuRv2HQBw++8VkV/pt3UWtX9cpPH0l7GKPq78QC/6+PmyQHHvNZaTjAce6QVciEbnc6J/zH5g==";
+        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.2.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.2.tgz";
+        sha512 = "S0Gk+rpT5w/ephKCncUY7kUsix9uE4B9XI8D/fS1/26d8okE+vZsuG1IvIt4B6sJUdQqsnzi+YXfmh+HJG11CA==";
       };
     }
     {
