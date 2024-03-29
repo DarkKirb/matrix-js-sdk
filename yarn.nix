@@ -1384,11 +1384,11 @@
       };
     }
     {
-      name = "_peculiar_webcrypto___webcrypto_1.4.5.tgz";
+      name = "_peculiar_webcrypto___webcrypto_1.4.6.tgz";
       path = fetchurl {
-        name = "_peculiar_webcrypto___webcrypto_1.4.5.tgz";
-        url = "https://registry.yarnpkg.com/@peculiar/webcrypto/-/webcrypto-1.4.5.tgz";
-        sha512 = "oDk93QCDGdxFRM8382Zdminzs44dg3M2+E5Np+JWkpqLDyJC9DviMh8F8mEJkYuUcUOGA5jHO5AJJ10MFWdbZw==";
+        name = "_peculiar_webcrypto___webcrypto_1.4.6.tgz";
+        url = "https://registry.yarnpkg.com/@peculiar/webcrypto/-/webcrypto-1.4.6.tgz";
+        sha512 = "YBcMfqNSwn3SujUJvAaySy5tlYbYm6tVt9SKoXu8BaTdKGROiJDgPR3TXpZdAKUfklzm3lRapJEAltiMQtBgZg==";
       };
     }
     {
@@ -6384,11 +6384,11 @@
       };
     }
     {
-      name = "webcrypto_core___webcrypto_core_1.7.8.tgz";
+      name = "webcrypto_core___webcrypto_core_1.7.9.tgz";
       path = fetchurl {
-        name = "webcrypto_core___webcrypto_core_1.7.8.tgz";
-        url = "https://registry.yarnpkg.com/webcrypto-core/-/webcrypto-core-1.7.8.tgz";
-        sha512 = "eBR98r9nQXTqXt/yDRtInszPMjTaSAMJAFDg2AHsgrnczawT1asx9YNBX6k5p+MekbPF4+s/UJJrr88zsTqkSg==";
+        name = "webcrypto_core___webcrypto_core_1.7.9.tgz";
+        url = "https://registry.yarnpkg.com/webcrypto-core/-/webcrypto-core-1.7.9.tgz";
+        sha512 = "FE+a4PPkOmBbgNDIyRmcHhgXn+2ClRl3JzJdDu/P4+B8y81LqKe6RAsI9b3lAOHe1T1BMkSjsRHTYRikImZnVA==";
       };
     }
     {
