@@ -47,11 +47,6 @@ export type ThreadEventHandlerMap = {
     [ThreadEvent.Delete]: (thread: Thread) => void;
 } & EventTimelineSetHandlerMap;
 
-/**
- * @deprecated please use ThreadEventHandlerMap instead
- */
-export type EventHandlerMap = ThreadEventHandlerMap;
-
 interface IThreadOpts {
     room: Room;
     client: MatrixClient;
@@ -709,7 +704,7 @@ export class Thread extends ReadReceipt<ThreadEmittedEvents, ThreadEventHandlerM
      * Return last reply to the thread, if known.
      */
     public lastReply(
-        matches: (ev: MatrixEvent) => boolean = (ev): boolean => ev.isRelation(RelationType.Thread),
+        matches: (ev: MatrixEvent) => boolean = (ev): boolean => ev.isRelation(THREAD_RELATION_TYPE.name),
     ): MatrixEvent | null {
         for (let i = this.timeline.length - 1; i >= 0; i--) {
             const event = this.timeline[i];
