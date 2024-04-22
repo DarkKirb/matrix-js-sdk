@@ -1,0 +1,24 @@
+name: Sync maunium fork
+
+on:
+    schedule:
+        - cron: "59 16 * * *" # 16:59 UTC
+    workflow_dispatch: # on button click
+
+jobs:
+    sync:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  token: ${{ secrets.PAT }}
+            - run: git remote add upstream https://github.com/maunium/matrix-js-sdk
+            - run: git fetch upstream
+            - run: git reset --hard upstream/develop
+            - uses: peter-evans/create-pull-request@v6
+              with:
+                  author: GitHub <noreply@github.com>
+                  branch: maunium-develop
+                  title: Update from maunium upstream
+                  token: ${{ secrets.PAT }}
