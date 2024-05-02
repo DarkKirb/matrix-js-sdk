@@ -10,23 +10,6 @@ on:
                 required: true
 concurrency: ${{ github.workflow }}-${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
 jobs:
-    changelog:
-        name: Preview Changelog
-        runs-on: ubuntu-latest
-        steps:
-            - uses: mheap/github-action-required-labels@132879b972cb7f2ac593006455875098e73cc7f2 # v5
-              if: github.event_name != 'merge_group'
-              with:
-                  labels: |
-                      X-Breaking-Change
-                      T-Deprecation
-                      T-Enhancement
-                      T-Defect
-                      T-Task
-                      Dependencies
-                  mode: minimum
-                  count: 1
-
     prevent-blocked:
         name: Prevent Blocked
         runs-on: ubuntu-latest
