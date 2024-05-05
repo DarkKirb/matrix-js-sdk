@@ -2288,11 +2288,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001615.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001616.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001615.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001615.tgz";
-        sha512 = "1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001616.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001616.tgz";
+        sha512 = "RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==";
       };
     }
     {
@@ -4576,11 +4576,11 @@
       };
     }
     {
-      name = "knip___knip_5.12.1.tgz";
+      name = "knip___knip_5.12.2.tgz";
       path = fetchurl {
-        name = "knip___knip_5.12.1.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.1.tgz";
-        sha512 = "lq4Yq5Vs4rzzHv6wCq0Oa+qYkoADzMSPGm0tE4mrdIoslzHaBJGFk2g5EqpmVlXqhy+ZUnvRdsbEaPdm28ufEg==";
+        name = "knip___knip_5.12.2.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.2.tgz";
+        sha512 = "js9PY49o3xEkheceQqwVGSE2xJb4HAwOSDNk51aBSZFQch6tkT2P1aipT2VnsyvOD25eBo1SXvJdSQhOBTUYsA==";
       };
     }
     {
@@ -6368,11 +6368,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.23.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.24.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.23.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.23.tgz";
-        sha512 = "YUJjq2cefjt8t15JaDr9dqblVwPjIHrgrnX6IgytrAv5bp5XkJtsb83/VRxa4ZBbWEqzW9BZVLb2IjQzPTCNHw==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.24.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.24.tgz";
+        sha512 = "incXVpVAHfK7xvA4hpj8R+Hhm51IH8f4O+ZQX7ws1JYWdFFf7Yu5sv0UWFMBmYcjjE1IovG1SEmg9XRE8bdkgg==";
       };
     }
     {
