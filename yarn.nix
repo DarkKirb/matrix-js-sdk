@@ -4576,11 +4576,11 @@
       };
     }
     {
-      name = "knip___knip_5.12.2.tgz";
+      name = "knip___knip_5.12.3.tgz";
       path = fetchurl {
-        name = "knip___knip_5.12.2.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.2.tgz";
-        sha512 = "js9PY49o3xEkheceQqwVGSE2xJb4HAwOSDNk51aBSZFQch6tkT2P1aipT2VnsyvOD25eBo1SXvJdSQhOBTUYsA==";
+        name = "knip___knip_5.12.3.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.3.tgz";
+        sha512 = "LL+NsE+3H0TkUnQW6icHQ+5qSrPENmjHJyMHgzjiZPmunstrIsaRG+QjahnzoH/FjMjVJwrdwVOSvksa8ixFbw==";
       };
     }
     {
