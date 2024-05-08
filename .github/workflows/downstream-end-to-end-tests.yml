@@ -3,16 +3,7 @@
 
 name: matrix-react-sdk End to End Tests
 on:
-    merge_group:
-        types: [checks_requested]
-
-    pull_request: {}
-
-    # For now at least, we don't run this or the downstream-end-to-end-tests against pushes
-    # to develop or master.
-    #
-    #push:
-    #    branches: [develop, master]
+    workflow_dispatch:
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.event.workflow_run.head_branch || github.run_id }}
