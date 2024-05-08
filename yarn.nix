@@ -1648,11 +1648,11 @@
       };
     }
     {
-      name = "_types_node___node_20.12.8.tgz";
+      name = "_types_node___node_20.12.10.tgz";
       path = fetchurl {
-        name = "_types_node___node_20.12.8.tgz";
-        url = "https://registry.yarnpkg.com/@types/node/-/node-20.12.8.tgz";
-        sha512 = "NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==";
+        name = "_types_node___node_20.12.10.tgz";
+        url = "https://registry.yarnpkg.com/@types/node/-/node-20.12.10.tgz";
+        sha512 = "Eem5pH9pmWBHoGAT8Dr5fdc5rYA+4NAovdM4EktRPVAAiJhmWWfQrA0cFhAbOsQdSfIHjAud6YdkbL69+zSKjw==";
       };
     }
     {
@@ -2800,11 +2800,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.756.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.757.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.756.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.756.tgz";
-        sha512 = "RJKZ9+vEBMeiPAvKNWyZjuYyUqMndcP1f335oHqn3BEQbs2NFtVrnK5+6Xg5wSM9TknNNpWghGDUCKGYF+xWXw==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.757.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.757.tgz";
+        sha512 = "jftDaCknYSSt/+KKeXzH3LX5E2CvRLm75P3Hj+J/dv3CL0qUYcOt13d5FN1NiL5IJbbhzHrb3BomeG2tkSlZmw==";
       };
     }
     {
@@ -3496,11 +3496,11 @@
       };
     }
     {
-      name = "get_tsconfig___get_tsconfig_4.7.3.tgz";
+      name = "get_tsconfig___get_tsconfig_4.7.4.tgz";
       path = fetchurl {
-        name = "get_tsconfig___get_tsconfig_4.7.3.tgz";
-        url = "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.7.3.tgz";
-        sha512 = "ZvkrzoUA0PQZM6fy6+/Hce561s+faD1rsNwhnO5FelNjyy7EMGJ3Rz1AQ8GYDWjhRs/7dBLOEJvhK8MiEJOAFg==";
+        name = "get_tsconfig___get_tsconfig_4.7.4.tgz";
+        url = "https://registry.yarnpkg.com/get-tsconfig/-/get-tsconfig-4.7.4.tgz";
+        sha512 = "ofbkKj+0pjXjhejr007J/fLf+sW+8H7K5GCm+msC8q3IpvgjobpyPqSRFemNyIMxklC0zeJpi7VDFna19FacvQ==";
       };
     }
     {
@@ -4576,11 +4576,11 @@
       };
     }
     {
-      name = "knip___knip_5.12.2.tgz";
+      name = "knip___knip_5.12.3.tgz";
       path = fetchurl {
-        name = "knip___knip_5.12.2.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.2.tgz";
-        sha512 = "js9PY49o3xEkheceQqwVGSE2xJb4HAwOSDNk51aBSZFQch6tkT2P1aipT2VnsyvOD25eBo1SXvJdSQhOBTUYsA==";
+        name = "knip___knip_5.12.3.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.12.3.tgz";
+        sha512 = "LL+NsE+3H0TkUnQW6icHQ+5qSrPENmjHJyMHgzjiZPmunstrIsaRG+QjahnzoH/FjMjVJwrdwVOSvksa8ixFbw==";
       };
     }
     {
