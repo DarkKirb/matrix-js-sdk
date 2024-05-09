@@ -2288,11 +2288,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001616.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001617.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001616.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001616.tgz";
-        sha512 = "RHVYKov7IcdNjVHJFNY/78RdG4oGVjbayxv8u5IO74Wv7Hlq4PnJE6mo/OjFijjVFNy5ijnCt6H3IIo4t+wfEw==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001617.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001617.tgz";
+        sha512 = "mLyjzNI9I+Pix8zwcrpxEbGlfqOkF9kM3ptzmKNw5tizSyYwMe+nGLTqMK9cO+0E+Bh6TsBxNAaHWEM8xwSsmA==";
       };
     }
     {
@@ -2800,11 +2800,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.758.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.761.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.758.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.758.tgz";
-        sha512 = "/o9x6TCdrYZBMdGeTifAP3wlF/gVT+TtWJe3BSmtNh92Mw81U9hrYwW9OAGUh+sEOX/yz5e34sksqRruZbjYrw==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.761.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.761.tgz";
+        sha512 = "PIbxpiJGx6Bb8dQaonNc6CGTRlVntdLg/2nMa1YhnrwYOORY9a3ZgGN0UQYE6lAcj/lkyduJN7BPt/JiY+jAQQ==";
       };
     }
     {
@@ -6816,11 +6816,11 @@
       };
     }
     {
-      name = "zod___zod_3.23.7.tgz";
+      name = "zod___zod_3.23.8.tgz";
       path = fetchurl {
-        name = "zod___zod_3.23.7.tgz";
-        url = "https://registry.yarnpkg.com/zod/-/zod-3.23.7.tgz";
-        sha512 = "NBeIoqbtOiUMomACV/y+V3Qfs9+Okr18vR5c/5pHClPpufWOrsx8TENboDPe265lFdfewX2yBtNTLPvnmCxwog==";
+        name = "zod___zod_3.23.8.tgz";
+        url = "https://registry.yarnpkg.com/zod/-/zod-3.23.8.tgz";
+        sha512 = "XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==";
       };
     }
   ];
