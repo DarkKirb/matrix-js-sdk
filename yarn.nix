@@ -2824,11 +2824,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.762.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.762.tgz";
-        sha512 = "rrFvGweLxPwwSwJOjIopy3Vr+J3cIPtZzuc74bmlvmBIgQO3VYJDvVrlj94iKZ3ukXUH64Ex31hSfRTLqvjYJQ==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.763.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.763.tgz";
+        sha512 = "k4J8NrtJ9QrvHLRo8Q18OncqBCB7tIUyqxRcJnlonQ0ioHKYB988GcDFF3ZePmnb8eHEopDs/wPHR/iGAFgoUQ==";
       };
     }
     {
@@ -4624,11 +4624,11 @@
       };
     }
     {
-      name = "knip___knip_5.14.0.tgz";
+      name = "knip___knip_5.15.0.tgz";
       path = fetchurl {
-        name = "knip___knip_5.14.0.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.14.0.tgz";
-        sha512 = "DnoY9c2RDH2CGpG4A8qgr7cjiGdbC6yCCht06qegy4GsfFVLg/9QCX+MfUCzDbsBZWk8Nh4zBdmmlrcac9jboQ==";
+        name = "knip___knip_5.15.0.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.15.0.tgz";
+        sha512 = "RB1Unv8NWrIAyNTNGA1z+uDSnHEp78BtGhkJxyg/Ie2lPHx6k+6kZOx+AZeE6J9/ZDvQ8nEg+BkRmB++7NIrDA==";
       };
     }
     {
@@ -5712,11 +5712,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_5.0.5.tgz";
+      name = "rimraf___rimraf_5.0.6.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_5.0.5.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.5.tgz";
-        sha512 = "CqDakW+hMe/Bz202FPEymy68P+G50RfMQK+Qo5YUqc9SPipvbGjCGKd0RSKEelbsfQuw3g5NZDSrlZZAJurH1A==";
+        name = "rimraf___rimraf_5.0.6.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz";
+        sha512 = "X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==";
       };
     }
     {
