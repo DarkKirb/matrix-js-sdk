@@ -3568,11 +3568,11 @@
       };
     }
     {
-      name = "glob___glob_10.3.14.tgz";
+      name = "glob___glob_10.3.15.tgz";
       path = fetchurl {
-        name = "glob___glob_10.3.14.tgz";
-        url = "https://registry.yarnpkg.com/glob/-/glob-10.3.14.tgz";
-        sha512 = "4fkAqu93xe9Mk7le9v0y3VrPDqLKHarNi2s4Pv7f2yOvfhWfhc7hRPHC/JyqMqb8B/Dt/eGS4n7ykwf3fOsl8g==";
+        name = "glob___glob_10.3.15.tgz";
+        url = "https://registry.yarnpkg.com/glob/-/glob-10.3.15.tgz";
+        sha512 = "0c6RlJt1TICLyvJYIApxb8GsXoai0KUP7AxKKAtsYXdgJR1mGEUa7DgwShbdk1nly0PYoZj01xd4hzbq3fsjpw==";
       };
     }
     {
@@ -5280,11 +5280,11 @@
       };
     }
     {
-      name = "path_scurry___path_scurry_1.11.0.tgz";
+      name = "path_scurry___path_scurry_1.11.1.tgz";
       path = fetchurl {
-        name = "path_scurry___path_scurry_1.11.0.tgz";
-        url = "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.11.0.tgz";
-        sha512 = "LNHTaVkzaYaLGlO+0u3rQTz7QrHTFOuKyba9JMTQutkmtNew8dw8wOD7mTU/5fCPZzCWpfW0XnQKzY61P0aTaw==";
+        name = "path_scurry___path_scurry_1.11.1.tgz";
+        url = "https://registry.yarnpkg.com/path-scurry/-/path-scurry-1.11.1.tgz";
+        sha512 = "Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==";
       };
     }
     {
@@ -5712,11 +5712,11 @@
       };
     }
     {
-      name = "rimraf___rimraf_5.0.6.tgz";
+      name = "rimraf___rimraf_5.0.7.tgz";
       path = fetchurl {
-        name = "rimraf___rimraf_5.0.6.tgz";
-        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.6.tgz";
-        sha512 = "X72SgyOf+1lFnGM6gYcmZ4+jMOwuT4E4SajKQzUIlI7EoR5eFHMhS/wf8Ll0mN+w2bxcIVldrJQ6xT7HFQywjg==";
+        name = "rimraf___rimraf_5.0.7.tgz";
+        url = "https://registry.yarnpkg.com/rimraf/-/rimraf-5.0.7.tgz";
+        sha512 = "nV6YcJo5wbLW77m+8KjH8aB/7/rxQy9SZ0HY5shnwULfS+9nmTtVXAJET5NdZmCzA4fPI/Hm1wo/Po/4mopOdg==";
       };
     }
     {
@@ -6408,11 +6408,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.24.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.25.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.24.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.24.tgz";
-        sha512 = "incXVpVAHfK7xvA4hpj8R+Hhm51IH8f4O+ZQX7ws1JYWdFFf7Yu5sv0UWFMBmYcjjE1IovG1SEmg9XRE8bdkgg==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.25.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.25.tgz";
+        sha512 = "Tox8kt/yUt+vUiSjz22D+yJyKH7z1f9/CtWbrJdOkfGpmt4SOssEmCPYgxmKPTTCt+SMHL8w5S5tWSc+gj3GYA==";
       };
     }
     {
