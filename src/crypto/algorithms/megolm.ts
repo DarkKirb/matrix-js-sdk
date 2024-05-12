@@ -1324,10 +1324,15 @@ export class MegolmDecryption extends DecryptionAlgorithm {
         // (fixes https://github.com/vector-im/element-web/issues/5001)
         this.addEventToPendingList(event);
 
+        let keyRoomId = event.getRoomId()!;
+        if (content["com.beeper.original_room_id"]?.endsWith(".local") && keyRoomId.endsWith(".local")) {
+            keyRoomId = content["com.beeper.original_room_id"];
+        }
+
         let res: IDecryptedGroupMessage | null;
         try {
             res = await this.olmDevice.decryptGroupMessage(
-                event.getRoomId()!,
+                keyRoomId,
                 content.sender_key,
                 content.session_id,
                 content.ciphertext,
