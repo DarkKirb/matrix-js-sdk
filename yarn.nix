@@ -4624,11 +4624,11 @@
       };
     }
     {
-      name = "knip___knip_5.15.0.tgz";
+      name = "knip___knip_5.15.1.tgz";
       path = fetchurl {
-        name = "knip___knip_5.15.0.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.15.0.tgz";
-        sha512 = "RB1Unv8NWrIAyNTNGA1z+uDSnHEp78BtGhkJxyg/Ie2lPHx6k+6kZOx+AZeE6J9/ZDvQ8nEg+BkRmB++7NIrDA==";
+        name = "knip___knip_5.15.1.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.15.1.tgz";
+        sha512 = "v6/Bf2qUmZ7pMJb2GjTficHyEjhP2ysIifjM1wgJr2psFbK6Vbxw2/DpeDAcgK9d99kTGh1PUQwoiFd6LHtI6A==";
       };
     }
     {
@@ -5040,11 +5040,11 @@
       };
     }
     {
-      name = "nwsapi___nwsapi_2.2.9.tgz";
+      name = "nwsapi___nwsapi_2.2.10.tgz";
       path = fetchurl {
-        name = "nwsapi___nwsapi_2.2.9.tgz";
-        url = "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.9.tgz";
-        sha512 = "2f3F0SEEer8bBu0dsNCFF50N0cTThV1nWFYcEYFZttdW0lDAoybv9cQoK7X7/68Z89S7FoRrVjP1LPX4XRf9vg==";
+        name = "nwsapi___nwsapi_2.2.10.tgz";
+        url = "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.10.tgz";
+        sha512 = "QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==";
       };
     }
     {

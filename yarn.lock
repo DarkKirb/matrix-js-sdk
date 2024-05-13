@@ -4635,9 +4635,9 @@ kleur@^3.0.3:
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
 knip@^5.0.0:
-  version "5.15.0"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-5.15.0.tgz#f58dbc6dc0d7af76f6597118004e0994d4d8b331"
-  integrity sha512-RB1Unv8NWrIAyNTNGA1z+uDSnHEp78BtGhkJxyg/Ie2lPHx6k+6kZOx+AZeE6J9/ZDvQ8nEg+BkRmB++7NIrDA==
+  version "5.15.1"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-5.15.1.tgz#897b792dd7e0e1130a24fc17d9f1a13b02fb8c02"
+  integrity sha512-v6/Bf2qUmZ7pMJb2GjTficHyEjhP2ysIifjM1wgJr2psFbK6Vbxw2/DpeDAcgK9d99kTGh1PUQwoiFd6LHtI6A==
   dependencies:
     "@ericcornelissen/bash-parser" "0.5.2"
     "@nodelib/fs.walk" "2.0.0"
@@ -4981,9 +4981,9 @@ npm-run-path@^5.1.0:
     path-key "^4.0.0"
 
 nwsapi@^2.2.2:
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.9.tgz#7f3303218372db2e9f27c27766bcfc59ae7e61c6"
-  integrity sha512-2f3F0SEEer8bBu0dsNCFF50N0cTThV1nWFYcEYFZttdW0lDAoybv9cQoK7X7/68Z89S7FoRrVjP1LPX4XRf9vg==
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/nwsapi/-/nwsapi-2.2.10.tgz#0b77a68e21a0b483db70b11fad055906e867cda8"
+  integrity sha512-QK0sRs7MKv0tKe1+5uZIQk/C8XGza4DAnztJG8iD+TpJIORARrCxczA738awHrZoHeTjSSoHqao2teO0dC/gFQ==
 
 object-inspect@^1.13.1:
   version "1.13.1"
