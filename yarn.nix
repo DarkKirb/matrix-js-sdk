@@ -3032,11 +3032,11 @@
       };
     }
     {
-      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.4.tgz";
+      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.5.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.4.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.4.tgz";
-        sha512 = "3ebvVgCJFy06gpmuS2ynz13uh9iFSzZ1C1dDkgcSAqVVg82zlORKMk2fvjq708pAO6bwfs5YLttknFEbaoDiGw==";
+        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.5.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.5.tgz";
+        sha512 = "ZeTfKV474W1N9niWfawpwsXGu+ZoMXu4417eBROX31d7ZuOk8zyG66SO77DpJ2+A9Wa2scw/jRqBPnnQo7VbcQ==";
       };
     }
     {
