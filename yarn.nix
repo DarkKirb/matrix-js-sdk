@@ -1056,11 +1056,11 @@
       };
     }
     {
-      name = "_eslint_eslintrc___eslintrc_3.0.2.tgz";
+      name = "_eslint_eslintrc___eslintrc_3.1.0.tgz";
       path = fetchurl {
-        name = "_eslint_eslintrc___eslintrc_3.0.2.tgz";
-        url = "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-3.0.2.tgz";
-        sha512 = "wV19ZEGEMAC1eHgrS7UQPqsdEiCIbTKTasEfcXAigzoXICcqZSjBZEHlZwNVvKg6UBCjSlos84XiLqsRJnIcIg==";
+        name = "_eslint_eslintrc___eslintrc_3.1.0.tgz";
+        url = "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-3.1.0.tgz";
+        sha512 = "4Bfj15dVJdoy3RfZmmo86RK1Fwzn6SstsvK9JS+BaVKqC6QQQQyXekNaC+g+LKNgkQ+2VhGAzm6hO40AhMR3zQ==";
       };
     }
     {
@@ -2816,11 +2816,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.772.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.774.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.772.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.772.tgz";
-        sha512 = "jFfEbxR/abTTJA3ci+2ok1NTuOBBtB4jH+UT6PUmRN+DY3WSD4FFRsgoVQ+QNIJ0T7wrXwzsWCI2WKC46b++2A==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.774.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.774.tgz";
+        sha512 = "132O1XCd7zcTkzS3FgkAzKmnBuNJjK8WjcTtNuoylj7MYbqw5eXehjQ5OK91g0zm7OTKIPeaAG4CPoRfD9M1Mg==";
       };
     }
     {
