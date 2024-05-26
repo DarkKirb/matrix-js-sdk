@@ -27,6 +27,7 @@ const config: Config = {
     // Always print out a summary if there are any failing tests. Normally
     // a summary is only printed if there are more than 20 test *suites*.
     reporters: [["default", { summaryThreshold: 0 }]],
+    transformIgnorePatterns: ["/node_modules/(?!uuid).+\\.js"],
 };
 
 // if we're running under GHA, enable the GHA reporter
