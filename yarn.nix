@@ -2664,11 +2664,11 @@
       };
     }
     {
-      name = "debug___debug_4.3.4.tgz";
+      name = "debug___debug_4.3.5.tgz";
       path = fetchurl {
-        name = "debug___debug_4.3.4.tgz";
-        url = "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz";
-        sha512 = "PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==";
+        name = "debug___debug_4.3.5.tgz";
+        url = "https://registry.yarnpkg.com/debug/-/debug-4.3.5.tgz";
+        sha512 = "pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==";
       };
     }
     {
