@@ -2664,11 +2664,11 @@
       };
     }
     {
-      name = "debug___debug_4.3.4.tgz";
+      name = "debug___debug_4.3.5.tgz";
       path = fetchurl {
-        name = "debug___debug_4.3.4.tgz";
-        url = "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz";
-        sha512 = "PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==";
+        name = "debug___debug_4.3.5.tgz";
+        url = "https://registry.yarnpkg.com/debug/-/debug-4.3.5.tgz";
+        sha512 = "pt0bNEmneDIvdL1Xsd9oDQ/wrQRkXDT4AUWlNZNPKvW5x/jyO9VFXkJUP07vQ2upmw5PlaITaPKc31jK13V+jg==";
       };
     }
     {
@@ -2832,11 +2832,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.786.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.787.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.786.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.786.tgz";
-        sha512 = "i/A2UB0sxYViMN0M2zIotQFRIOt1jLuVXudACHBDiJ5gGuAUzf/crZxwlBTdA0O52Hy4CNtTzS7AKRAacs/08Q==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.787.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.787.tgz";
+        sha512 = "d0EFmtLPjctczO3LogReyM2pbBiiZbnsKnGF+cdZhsYzHm/A0GV7W94kqzLD8SN4O3f3iHlgLUChqghgyznvCQ==";
       };
     }
     {
