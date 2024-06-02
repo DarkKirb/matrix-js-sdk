@@ -2312,11 +2312,11 @@
       };
     }
     {
-      name = "caniuse_lite___caniuse_lite_1.0.30001625.tgz";
+      name = "caniuse_lite___caniuse_lite_1.0.30001626.tgz";
       path = fetchurl {
-        name = "caniuse_lite___caniuse_lite_1.0.30001625.tgz";
-        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001625.tgz";
-        sha512 = "4KE9N2gcRH+HQhpeiRZXd+1niLB/XNLAhSy4z7fI8EzcbcPoAqjNInxVHTiTwWfTIV4w096XG8OtCOCQQKPv3w==";
+        name = "caniuse_lite___caniuse_lite_1.0.30001626.tgz";
+        url = "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001626.tgz";
+        sha512 = "JRW7kAH8PFJzoPCJhLSHgDgKg5348hsQ68aqb+slnzuB5QFERv846oA/mRChmlLAOdEDeOkRn3ynb1gSFnjt3w==";
       };
     }
     {
@@ -6432,11 +6432,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.27.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.28.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.27.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.27.tgz";
-        sha512 = "fpAAvu0LrYc9JPMaab0YcmToaF2NsGCkFhSsNPB1O82VEqwk8MHIytUxQXrY6cn+bgyr2xRqA1Fo2D9mA60Gyw==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.1.28.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.1.28.tgz";
+        sha512 = "ADOSEMfEGZfyLFq8qNzS66zguPqIrrKFgspJmrXZGaGiUoHLqV8VY5V/MP2sMFnMY90uaVgeYwcVKKoutWekzw==";
       };
     }
     {
