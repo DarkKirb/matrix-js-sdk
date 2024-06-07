@@ -2832,11 +2832,11 @@
       };
     }
     {
-      name = "electron_to_chromium___electron_to_chromium_1.4.792.tgz";
+      name = "electron_to_chromium___electron_to_chromium_1.4.794.tgz";
       path = fetchurl {
-        name = "electron_to_chromium___electron_to_chromium_1.4.792.tgz";
-        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.792.tgz";
-        sha512 = "rkg5/N3L+Y844JyfgPUyuKK0Hk0efo3JNxUDKvz3HgP6EmN4rNGhr2D8boLsfTV/hGo7ZGAL8djw+jlg99zQyA==";
+        name = "electron_to_chromium___electron_to_chromium_1.4.794.tgz";
+        url = "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.794.tgz";
+        sha512 = "6FApLtsYhDCY0Vglq3AptsdxQ+PJLc6AxlAM0HjEihUAiOPPbkASEsq9gtxUeZY9o0sJIEa3WnF0vVH4VT4iug==";
       };
     }
     {
@@ -3040,19 +3040,19 @@
       };
     }
     {
-      name = "eslint_plugin_jest___eslint_plugin_jest_28.5.0.tgz";
+      name = "eslint_plugin_jest___eslint_plugin_jest_28.6.0.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jest___eslint_plugin_jest_28.5.0.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-28.5.0.tgz";
-        sha512 = "6np6DGdmNq/eBbA7HOUNV8fkfL86PYwBfwyb8n23FXgJNTR8+ot3smRHjza9LGsBBZRypK3qyF79vMjohIL8eQ==";
+        name = "eslint_plugin_jest___eslint_plugin_jest_28.6.0.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-28.6.0.tgz";
+        sha512 = "YG28E1/MIKwnz+e2H7VwYPzHUYU4aMa19w0yGcwXnnmJH6EfgHahTJ2un3IyraUxNfnz/KUhJAFXNNwWPo12tg==";
       };
     }
     {
-      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.8.tgz";
+      name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.9.tgz";
       path = fetchurl {
-        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.8.tgz";
-        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.8.tgz";
-        sha512 = "b72WNCHxmcrtYh6ejy0Y5rQH0mJpym27fT4P3HU3fbqEo3J95/hdG7VlevOHK0PZrHk1pVnClCBH7wXw2RMIXg==";
+        name = "eslint_plugin_jsdoc___eslint_plugin_jsdoc_48.2.9.tgz";
+        url = "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-48.2.9.tgz";
+        sha512 = "ErpKyr2mEUEkcdZ4nwW/cvDjClvAcvJMEXkGGll0wf8sro8h6qeQ3qlZyp1vM1dRk8Ap6rMdke8FnP94QBIaVQ==";
       };
     }
     {
