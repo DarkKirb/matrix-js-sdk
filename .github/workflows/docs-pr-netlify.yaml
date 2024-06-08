@@ -1,10 +1,7 @@
 name: Deploy documentation PR preview
 
 on:
-    workflow_run:
-        workflows: ["Static Analysis"]
-        types:
-            - completed
+    workflow_dispatch:
 
 jobs:
     netlify:
