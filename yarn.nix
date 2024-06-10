@@ -6560,19 +6560,19 @@
       };
     }
     {
+      name = "uuid___uuid_10.0.0.tgz";
+      path = fetchurl {
+        name = "uuid___uuid_10.0.0.tgz";
+        url = "https://registry.yarnpkg.com/uuid/-/uuid-10.0.0.tgz";
+        sha512 = "8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==";
+      };
+    }
+    {
       name = "uuid___uuid_8.3.2.tgz";
       path = fetchurl {
         name = "uuid___uuid_8.3.2.tgz";
         url = "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz";
         sha512 = "+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==";
-      };
-    }
-    {
-      name = "uuid___uuid_9.0.1.tgz";
-      path = fetchurl {
-        name = "uuid___uuid_9.0.1.tgz";
-        url = "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz";
-        sha512 = "b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==";
       };
     }
     {
