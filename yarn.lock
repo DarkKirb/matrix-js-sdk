@@ -4627,9 +4627,9 @@ kleur@^3.0.3:
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
 knip@^5.0.0:
-  version "5.22.1"
-  resolved "https://registry.yarnpkg.com/knip/-/knip-5.22.1.tgz#ea34c37ef1f3b442fa692d78d905b9545a1aa77d"
-  integrity sha512-wLJ3HVFJlf5N7ePEKuD6dQRjXiXq3cu3uSlzaYNo2J0bW0sLeLlFF+hucnA6vFwF5WSV94weu0cLKF+wGaM8JQ==
+  version "5.22.2"
+  resolved "https://registry.yarnpkg.com/knip/-/knip-5.22.2.tgz#6db1f1c0e066d65ad24c55602ea016f730dad96c"
+  integrity sha512-eMEnuLOkLN5wn1Os9v0cujZQAhcZ8dYZ23ZsVizfWaaeIx9/s8PaaW4HlbnePQ+ci463X61/+CboGSkmmB8OZA==
   dependencies:
     "@ericcornelissen/bash-parser" "0.5.3"
     "@nodelib/fs.walk" "2.0.0"
