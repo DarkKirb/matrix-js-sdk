@@ -3312,6 +3312,14 @@
       };
     }
     {
+      name = "fetch_mock___fetch_mock_10.0.7.tgz";
+      path = fetchurl {
+        name = "fetch_mock___fetch_mock_10.0.7.tgz";
+        url = "https://registry.yarnpkg.com/fetch-mock/-/fetch-mock-10.0.7.tgz";
+        sha512 = "TFG42kMRJ6dZpUDeVTdXNjh5O4TchHU/UNk41a050TwKzRr5RJQbtckXDjXiQFHPKgXGUG5l2TY3ZZ2gokiXaQ==";
+      };
+    }
+    {
       name = "fetch_mock___fetch_mock_9.11.0.tgz";
       path = fetchurl {
         name = "fetch_mock___fetch_mock_9.11.0.tgz";
