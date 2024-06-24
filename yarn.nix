@@ -2160,11 +2160,11 @@
       };
     }
     {
-      name = "base_x___base_x_4.0.0.tgz";
+      name = "base_x___base_x_5.0.0.tgz";
       path = fetchurl {
-        name = "base_x___base_x_4.0.0.tgz";
-        url = "https://registry.yarnpkg.com/base-x/-/base-x-4.0.0.tgz";
-        sha512 = "FuwxlW4H5kh37X/oW59pwTzzTKRzfrrQwhmyspRM7swOEZcHtDZSCt45U6oKgtuFE+WYPblePMVIPR4RZrh/hw==";
+        name = "base_x___base_x_5.0.0.tgz";
+        url = "https://registry.yarnpkg.com/base-x/-/base-x-5.0.0.tgz";
+        sha512 = "sMW3VGSX1QWVFA6l8U62MLKz29rRfpTlYdCqLdpLo1/Yd4zZwSbnUaDfciIAowAqvq7YFnWq9hrhdg1KYgc1lQ==";
       };
     }
     {
@@ -2208,11 +2208,11 @@
       };
     }
     {
-      name = "bs58___bs58_5.0.0.tgz";
+      name = "bs58___bs58_6.0.0.tgz";
       path = fetchurl {
-        name = "bs58___bs58_5.0.0.tgz";
-        url = "https://registry.yarnpkg.com/bs58/-/bs58-5.0.0.tgz";
-        sha512 = "r+ihvQJvahgYT50JD05dyJNKlmmSlMoOGwn1lCcEzanPglg7TxYjioQUYehQ9mAR/+hOSd2jRc/Z2y5UxBymvQ==";
+        name = "bs58___bs58_6.0.0.tgz";
+        url = "https://registry.yarnpkg.com/bs58/-/bs58-6.0.0.tgz";
+        sha512 = "PD0wEnEYg6ijszw/u8s+iI3H17cTymlrwkKhDhPZq+Sokl3AU4htyBFTjAeNAlCCmg0f53g6ih3jATyCKftTfw==";
       };
     }
     {
