@@ -1075,7 +1075,7 @@ export type ClientEventHandlerMap = {
      * });
      * ```
      */
-    [ClientEvent.Sync]: (state: SyncState, lastState: SyncState | null, data?: ISyncStateData) => void;
+    [ClientEvent.Sync]: (state: SyncState, prevState: SyncState | null, data?: ISyncStateData) => void;
     /**
      * Fires whenever the SDK receives a new event.
      * <p>
@@ -2232,9 +2232,7 @@ export class MatrixClient extends TypedEventEmitter<EmittedEvents, ClientEventHa
             cryptoCallbacks: this.cryptoCallbacks,
             storePrefix: args.useIndexedDB === false ? null : RUST_SDK_STORE_PREFIX,
             storeKey: args.storageKey,
-
-            // temporary compatibility hack: if there is no storageKey nor storagePassword, fall back to the pickleKey
-            storePassphrase: args.storagePassword ?? this.pickleKey,
+            storePassphrase: args.storagePassword,
 
             legacyCryptoStore: this.cryptoStore,
             legacyPickleKey: this.pickleKey ?? "DEFAULT_KEY",
@@ -7410,7 +7408,7 @@ export class MatrixClient extends TypedEventEmitter<EmittedEvents, ClientEventHa
         return this.http.authedRequest(Method.Post, path, undefined, undefined, { prefix: "" });
     }
 
-    private async fetchClientWellKnown(): Promise<void> {
+    protected async fetchClientWellKnown(): Promise<void> {
         // `getRawClientConfig` does not throw or reject on network errors, instead
         // it absorbs errors and returns `{}`.
         this.clientWellKnownPromise = AutoDiscovery.getRawClientConfig(this.getDomain() ?? undefined);
