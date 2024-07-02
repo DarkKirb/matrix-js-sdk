@@ -4584,11 +4584,11 @@
       };
     }
     {
-      name = "knip___knip_5.23.2.tgz";
+      name = "knip___knip_5.23.3.tgz";
       path = fetchurl {
-        name = "knip___knip_5.23.2.tgz";
-        url = "https://registry.yarnpkg.com/knip/-/knip-5.23.2.tgz";
-        sha512 = "3IbIzu2K6mB4aLBLkhYWYLVL5kbyjgDW3LPW4wFN9fl4I8F7VK5gF/m9C0HZmTBmoW9OkCzQapBv6H7E1+NI1g==";
+        name = "knip___knip_5.23.3.tgz";
+        url = "https://registry.yarnpkg.com/knip/-/knip-5.23.3.tgz";
+        sha512 = "i0vFlpe3D9AZmp3Hlq3ZncjJQB2x21LeVrIV+9rnBavaKpTLhV/sLmE4iqTjEWedLtpfJsax68S68aqZzcXpsQ==";
       };
     }
     {
@@ -6432,11 +6432,11 @@
       };
     }
     {
-      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.2.1.tgz";
+      name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.2.2.tgz";
       path = fetchurl {
-        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.2.1.tgz";
-        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.2.1.tgz";
-        sha512 = "l76VJKKhOxCYXnb16aV6nAQG5JCsuStqviNFmgzhS9dW73nqm3/1MO9497+0KlDTOPO3o+R2uVXq87d2cDy/hg==";
+        name = "typedoc_plugin_mdn_links___typedoc_plugin_mdn_links_3.2.2.tgz";
+        url = "https://registry.yarnpkg.com/typedoc-plugin-mdn-links/-/typedoc-plugin-mdn-links-3.2.2.tgz";
+        sha512 = "3xlxS32c29Mey5SxqgCEF1lYYceQyoILhJM0Ewh2ISW8Ql3NzhC3SGpuvft4YtzpZIdB+YR7aIMkhlDquA0M+Q==";
       };
     }
     {
