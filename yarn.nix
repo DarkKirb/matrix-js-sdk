@@ -1416,11 +1416,11 @@
       };
     }
     {
-      name = "_shikijs_core___core_1.9.1.tgz";
+      name = "_shikijs_core___core_1.10.0.tgz";
       path = fetchurl {
-        name = "_shikijs_core___core_1.9.1.tgz";
-        url = "https://registry.yarnpkg.com/@shikijs/core/-/core-1.9.1.tgz";
-        sha512 = "EmUful2MQtY8KgCF1OkBtOuMcvaZEvmdubhW0UHCGXi21O9dRLeADVCj+k6ZS+de7Mz9d2qixOXJ+GLhcK3pXg==";
+        name = "_shikijs_core___core_1.10.0.tgz";
+        url = "https://registry.yarnpkg.com/@shikijs/core/-/core-1.10.0.tgz";
+        sha512 = "BZcr6FCmPfP6TXaekvujZcnkFmJHZ/Yglu97r/9VjzVndQA56/F4WjUKtJRQUnK59Wi7p/UTAOekMfCJv7jnYg==";
       };
     }
     {
@@ -4904,11 +4904,11 @@
       };
     }
     {
-      name = "minimatch___minimatch_9.0.4.tgz";
+      name = "minimatch___minimatch_9.0.5.tgz";
       path = fetchurl {
-        name = "minimatch___minimatch_9.0.4.tgz";
-        url = "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.4.tgz";
-        sha512 = "KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==";
+        name = "minimatch___minimatch_9.0.5.tgz";
+        url = "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.5.tgz";
+        sha512 = "G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==";
       };
     }
     {
@@ -5840,11 +5840,11 @@
       };
     }
     {
-      name = "shiki___shiki_1.9.1.tgz";
+      name = "shiki___shiki_1.10.0.tgz";
       path = fetchurl {
-        name = "shiki___shiki_1.9.1.tgz";
-        url = "https://registry.yarnpkg.com/shiki/-/shiki-1.9.1.tgz";
-        sha512 = "8PDkgb5ja3nfujTjvC4VytL6wGOGCtFAClUb2r3QROevYXxcq+/shVJK5s6gy0HZnjaJgFxd6BpPqpRfqne5rA==";
+        name = "shiki___shiki_1.10.0.tgz";
+        url = "https://registry.yarnpkg.com/shiki/-/shiki-1.10.0.tgz";
+        sha512 = "YD2sXQ+TMD/F9BimV9Jn0wj35pqOvywvOG/3PB6hGHyGKlM7TJ9tyJ02jOb2kF8F0HfJwKNYrh3sW7jEcuRlXA==";
       };
     }
     {
@@ -6448,11 +6448,11 @@
       };
     }
     {
-      name = "typedoc___typedoc_0.26.2.tgz";
+      name = "typedoc___typedoc_0.26.3.tgz";
       path = fetchurl {
-        name = "typedoc___typedoc_0.26.2.tgz";
-        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.26.2.tgz";
-        sha512 = "q/t+M+PZqhN9gPWLBZ3CCvP+KT8O1tyYkSzEYbcQ6mo89avdIrMlBEl3vfo5BgSzwC6Lbmq0W64E8RkY+eVsLA==";
+        name = "typedoc___typedoc_0.26.3.tgz";
+        url = "https://registry.yarnpkg.com/typedoc/-/typedoc-0.26.3.tgz";
+        sha512 = "6d2Sw9disvvpdk4K7VNjKr5/3hzijtfQVHRthhDqJgnhMHy1wQz4yPMJVKXElvnZhFr0nkzo+GzjXDTRV5yLpg==";
       };
     }
     {
