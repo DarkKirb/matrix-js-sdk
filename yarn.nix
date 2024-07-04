@@ -1280,11 +1280,11 @@
       };
     }
     {
-      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_6.1.0.tgz";
+      name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_6.2.0.tgz";
       path = fetchurl {
-        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_6.1.0.tgz";
-        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-6.1.0.tgz";
-        sha512 = "8Wn4TT9PEJswfE8+6mA60JHrxyiWYXfM4EM5800tLz+Rl9QRGk9JDF0o0cTb26v6bfXTa3/pCGWAkUVk0ROPEw==";
+        name = "_matrix_org_matrix_sdk_crypto_wasm___matrix_sdk_crypto_wasm_6.2.0.tgz";
+        url = "https://registry.yarnpkg.com/@matrix-org/matrix-sdk-crypto-wasm/-/matrix-sdk-crypto-wasm-6.2.0.tgz";
+        sha512 = "nYf7V/WuccxBDyUg/UkxgikN2DhGjvUetraw8W8DlE/aOEwmIVqUGNVlVcujqY1MM4xbGBM35Gz3EFmRyBnCeg==";
       };
     }
     {
