@@ -4848,11 +4848,11 @@
       };
     }
     {
-      name = "micromatch___micromatch_4.0.7.tgz";
+      name = "micromatch___micromatch_4.0.8.tgz";
       path = fetchurl {
-        name = "micromatch___micromatch_4.0.7.tgz";
-        url = "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.7.tgz";
-        sha512 = "LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==";
+        name = "micromatch___micromatch_4.0.8.tgz";
+        url = "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.8.tgz";
+        sha512 = "PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==";
       };
     }
     {
